@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TicTacToeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-01T18:31:40" hostname="User-PC" time="0.407">
+  <properties/>
+  <testcase name="start" classname="TicTacToeTest" time="0.407"/>
+  <system-out><![CDATA[Input command: ---------
+|       |
+|       |
+|       |
+---------
+Enter the coordinates: ---------
+|       |
+|       |
+| X     |
+---------
+Making move level "easy"
+---------
+|       |
+|       |
+| X O   |
+---------
+Enter the coordinates: ---------
+|       |
+| X     |
+| X O   |
+---------
+Making move level "easy"
+---------
+|     O |
+| X     |
+| X O   |
+---------
+Enter the coordinates: ---------
+| X   O |
+| X     |
+| X O   |
+---------
+X wins
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Input command: ---------
+|       |
+|       |
+|       |
+---------
+Making move level "easy"
+---------
+|       |
+|     X |
+|       |
+---------
+Enter the coordinates: Coordinates should be from 1 to 3!
+Enter the coordinates: ---------
+|       |
+| O   X |
+|       |
+---------
+Making move level "easy"
+---------
+| X     |
+| O   X |
+|       |
+---------
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: ---------
+| X     |
+| O   X |
+|   O   |
+---------
+Making move level "easy"
+---------
+| X X   |
+| O   X |
+|   O   |
+---------
+Enter the coordinates: ---------
+| X X   |
+| O O X |
+|   O   |
+---------
+Making move level "easy"
+---------
+| X X   |
+| O O X |
+|   O X |
+---------
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: ---------
+| X X O |
+| O O X |
+|   O X |
+---------
+Making move level "easy"
+---------
+| X X O |
+| O O X |
+| X O X |
+---------
+Draw
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Input command: ---------
+|       |
+|       |
+|       |
+---------
+Enter the coordinates: ---------
+| X     |
+|       |
+|       |
+---------
+Making move level "easy"
+---------
+| X O   |
+|       |
+|       |
+---------
+Enter the coordinates: ---------
+| X O   |
+|       |
+|   X   |
+---------
+Making move level "easy"
+---------
+| X O   |
+|   O   |
+|   X   |
+---------
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: ---------
+| X O   |
+|   O   |
+|   X X |
+---------
+Making move level "easy"
+---------
+| X O   |
+|   O O |
+|   X X |
+---------
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: ---------
+| X O X |
+|   O O |
+|   X X |
+---------
+Making move level "easy"
+---------
+| X O X |
+| O O O |
+|   X X |
+---------
+O wins
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Input command: ---------
+|       |
+|       |
+|       |
+---------
+Making move level "easy"
+---------
+|       |
+|   X   |
+|       |
+---------
+Enter the coordinates: Coordinates should be from 1 to 3!
+Enter the coordinates: ---------
+|       |
+|   X   |
+|   O   |
+---------
+Making move level "easy"
+---------
+|     X |
+|   X   |
+|   O   |
+---------
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: ---------
+|   O X |
+|   X   |
+|   O   |
+---------
+Making move level "easy"
+---------
+|   O X |
+|   X X |
+|   O   |
+---------
+Enter the coordinates: ---------
+|   O X |
+|   X X |
+|   O O |
+---------
+Making move level "easy"
+---------
+| X O X |
+|   X X |
+|   O O |
+---------
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: ---------
+| X O X |
+|   X X |
+| O O O |
+---------
+O wins
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Input command: ---------
+|       |
+|       |
+|       |
+---------
+Enter the coordinates: ---------
+|       |
+|   X   |
+|       |
+---------
+Making move level "easy"
+---------
+| O     |
+|   X   |
+|       |
+---------
+Enter the coordinates: ---------
+| O X   |
+|   X   |
+|       |
+---------
+Making move level "easy"
+---------
+| O X   |
+|   X   |
+|     O |
+---------
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: ---------
+| O X   |
+|   X X |
+|     O |
+---------
+Making move level "easy"
+---------
+| O X   |
+|   X X |
+|   O O |
+---------
+Enter the coordinates: ---------
+| O X X |
+|   X X |
+|   O O |
+---------
+Making move level "easy"
+---------
+| O X X |
+| O X X |
+|   O O |
+---------
+Enter the coordinates: ---------
+| O X X |
+| O X X |
+| X O O |
+---------
+X wins
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Input command: ---------
+|       |
+|       |
+|       |
+---------
+Making move level "easy"
+---------
+|     X |
+|       |
+|       |
+---------
+Enter the coordinates: Coordinates should be from 1 to 3!
+Enter the coordinates: ---------
+|   O X |
+|       |
+|       |
+---------
+Making move level "easy"
+---------
+|   O X |
+|       |
+|   X   |
+---------
+Enter the coordinates: ---------
+|   O X |
+|       |
+|   X O |
+---------
+Making move level "easy"
+---------
+|   O X |
+| X     |
+|   X O |
+---------
+Enter the coordinates: ---------
+|   O X |
+| X   O |
+|   X O |
+---------
+Making move level "easy"
+---------
+|   O X |
+| X   O |
+| X X O |
+---------
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: ---------
+| O O X |
+| X   O |
+| X X O |
+---------
+Making move level "easy"
+---------
+| O O X |
+| X X O |
+| X X O |
+---------
+X wins
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Input command: ---------
+|       |
+|       |
+|       |
+---------
+Enter the coordinates: ---------
+|       |
+|       |
+|     X |
+---------
+Making move level "easy"
+---------
+|       |
+|     O |
+|     X |
+---------
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: ---------
+|     X |
+|     O |
+|     X |
+---------
+Making move level "easy"
+---------
+|   O X |
+|     O |
+|     X |
+---------
+Enter the coordinates: ---------
+|   O X |
+|     O |
+| X   X |
+---------
+Making move level "easy"
+---------
+|   O X |
+|     O |
+| X O X |
+---------
+Enter the coordinates: ---------
+|   O X |
+| X   O |
+| X O X |
+---------
+Making move level "easy"
+---------
+|   O X |
+| X O O |
+| X O X |
+---------
+O wins
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Input command: ---------
+|       |
+|       |
+|       |
+---------
+Making move level "easy"
+---------
+|   X   |
+|       |
+|       |
+---------
+Enter the coordinates: Coordinates should be from 1 to 3!
+Enter the coordinates: ---------
+|   X   |
+|     O |
+|       |
+---------
+Making move level "easy"
+---------
+|   X   |
+| X   O |
+|       |
+---------
+Enter the coordinates: ---------
+|   X O |
+| X   O |
+|       |
+---------
+Making move level "easy"
+---------
+|   X O |
+| X   O |
+|   X   |
+---------
+Enter the coordinates: ---------
+|   X O |
+| X   O |
+| O X   |
+---------
+Making move level "easy"
+---------
+|   X O |
+| X   O |
+| O X X |
+---------
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: ---------
+| O X O |
+| X   O |
+| O X X |
+---------
+Making move level "easy"
+---------
+| O X O |
+| X X O |
+| O X X |
+---------
+X wins
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Input command: ---------
+|       |
+|       |
+|       |
+---------
+Enter the coordinates: ---------
+|     X |
+|       |
+|       |
+---------
+Making move level "easy"
+---------
+|     X |
+|       |
+| O     |
+---------
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: ---------
+|     X |
+| X     |
+| O     |
+---------
+Making move level "easy"
+---------
+|   O X |
+| X     |
+| O     |
+---------
+Enter the coordinates: ---------
+| X O X |
+| X     |
+| O     |
+---------
+Making move level "easy"
+---------
+| X O X |
+| X     |
+| O   O |
+---------
+Enter the coordinates: ---------
+| X O X |
+| X     |
+| O X O |
+---------
+Making move level "easy"
+---------
+| X O X |
+| X O   |
+| O X O |
+---------
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: This cell is occupied! Choose another one!
+Enter the coordinates: ---------
+| X O X |
+| X O X |
+| O X O |
+---------
+Draw
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Bad parameters! Please, enter again.
+Input command: Input command: ---------
+|       |
+|       |
+|       |
+---------
+Making move level "easy"
+---------
+|     X |
+|       |
+|       |
+---------
+Making move level "easy"
+---------
+|     X |
+|       |
+|   O   |
+---------
+Making move level "easy"
+---------
+|     X |
+| X     |
+|   O   |
+---------
+Making move level "easy"
+---------
+|     X |
+| X O   |
+|   O   |
+---------
+Making move level "easy"
+---------
+|     X |
+| X O   |
+| X O   |
+---------
+Making move level "easy"
+---------
+| O   X |
+| X O   |
+| X O   |
+---------
+Making move level "easy"
+---------
+| O   X |
+| X O   |
+| X O X |
+---------
+Making move level "easy"
+---------
+| O O X |
+| X O   |
+| X O X |
+---------
+O wins
+Input command: Input command: ---------
+|       |
+|       |
+|       |
+---------
+Enter the coordinates: ---------
+|       |
+|       |
+| X     |
+---------
+Enter the coordinates: ---------
+|       |
+|   O   |
+| X     |
+---------
+Enter the coordinates: ---------
+|       |
+| X O   |
+| X     |
+---------
+Enter the coordinates: ---------
+|       |
+| X O   |
+| X O   |
+---------
+Enter the coordinates: ---------
+| X     |
+| X O   |
+| X O   |
+---------
+X wins
+Input command: ]]></system-out>
+  <system-err><![CDATA[Start test 1
+Start test 2
+Start test 3
+Start test 4
+Start test 5
+Start test 6
+Start test 7
+Start test 8
+Start test 9
+Start test 10
+Start test 11
+]]></system-err>
+</testsuite>

@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="VERSION" value="16" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="course">
+        <HyperskillCourse>
+          <option name="authors">
+            <list />
+          </option>
+          <option name="courseMode" value="Study" />
+          <option name="customPresentableName" />
+          <option name="description" value="A famous game with a 3x3 field. You can build a simple AI and play against it. You’ll learn to create bots of various types of difficulty.&lt;br/&gt;&lt;br/&gt;Learn more at &lt;a href=&quot;https://hyperskill.org&quot;&gt;https://hyperskill.org/projects/48&lt;/a&gt;" />
+          <option name="environment" value="" />
+          <option name="id" value="0" />
+          <option name="index" value="-1" />
+          <option name="language" value="JAVA 11" />
+          <option name="languageCode" value="en" />
+          <option name="name" value="Tic-Tac-Toe with AI" />
+          <option name="stages">
+            <list>
+              <HyperskillStage>
+                <option name="id" value="255" />
+                <option name="stepId" value="5397" />
+                <option name="title" value="Print a state of the game field" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="256" />
+                <option name="stepId" value="5398" />
+                <option name="title" value="Create a simple game field" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="257" />
+                <option name="stepId" value="5399" />
+                <option name="title" value="Print the game state" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="258" />
+                <option name="stepId" value="5400" />
+                <option name="title" value="Create a human move" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="259" />
+                <option name="stepId" value="5401" />
+                <option name="title" value="Find errors in user input" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="260" />
+                <option name="stepId" value="5402" />
+                <option name="title" value="Make an &quot;easy&quot; difficulty level" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="261" />
+                <option name="stepId" value="5403" />
+                <option name="title" value="Create a game loop" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="262" />
+                <option name="stepId" value="5404" />
+                <option name="title" value="Create a start menu" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="263" />
+                <option name="stepId" value="5405" />
+                <option name="title" value="Make a &quot;medium&quot; difficulty level" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="264" />
+                <option name="stepId" value="5406" />
+                <option name="title" value="Make a &quot;hard&quot; difficulty level" />
+              </HyperskillStage>
+            </list>
+          </option>
+          <option name="taskToTopics">
+            <map>
+              <entry key="0">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="259" />
+                      <option name="theoryId" value="3805" />
+                      <option name="title" value="IDE" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="15" />
+                      <option name="theoryId" value="3500" />
+                      <option name="title" value="Introduction to Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="147" />
+                      <option name="theoryId" value="3522" />
+                      <option name="title" value="Basic literals" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="148" />
+                      <option name="theoryId" value="3521" />
+                      <option name="title" value="The first program" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="193" />
+                      <option name="theoryId" value="3749" />
+                      <option name="title" value="Printing data" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="260" />
+                      <option name="theoryId" value="3801" />
+                      <option name="title" value="IntelliJ IDEA" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="1">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="480" />
+                      <option name="theoryId" value="6577" />
+                      <option name="title" value="Command line overview" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="14" />
+                      <option name="theoryId" value="3518" />
+                      <option name="title" value="Types and variables" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="309" />
+                      <option name="theoryId" value="5035" />
+                      <option name="title" value="Primitive and reference types" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="4" />
+                      <option name="theoryId" value="3511" />
+                      <option name="title" value="Array" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="30" />
+                      <option name="theoryId" value="3520" />
+                      <option name="title" value="Comments" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="112" />
+                      <option name="theoryId" value="3513" />
+                      <option name="title" value="Naming variables" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="146" />
+                      <option name="theoryId" value="3519" />
+                      <option name="title" value="Arithmetic operations" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="191" />
+                      <option name="theoryId" value="3739" />
+                      <option name="title" value="Write, compile and run" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="149" />
+                      <option name="theoryId" value="3499" />
+                      <option name="title" value="JVM, JRE and JDK" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="192" />
+                      <option name="theoryId" value="3746" />
+                      <option name="title" value="Running programs on your computer" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="113" />
+                      <option name="theoryId" value="3603" />
+                      <option name="title" value="Scanning the input" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="27" />
+                      <option name="theoryId" value="3565" />
+                      <option name="title" value="Integer types and operations" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="307" />
+                      <option name="theoryId" value="5008" />
+                      <option name="title" value="Increment and decrement" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="31" />
+                      <option name="theoryId" value="3514" />
+                      <option name="title" value="Characters" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="9" />
+                      <option name="theoryId" value="3523" />
+                      <option name="title" value="String" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="2">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="87" />
+                      <option name="theoryId" value="3516" />
+                      <option name="title" value="Boolean and logical operations" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="88" />
+                      <option name="theoryId" value="3512" />
+                      <option name="title" value="Relational operators" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="25" />
+                      <option name="theoryId" value="3503" />
+                      <option name="title" value="Conditional statement" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="89" />
+                      <option name="theoryId" value="3505" />
+                      <option name="title" value="The for-loop" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="90" />
+                      <option name="theoryId" value="3498" />
+                      <option name="title" value="The while and do-while loops" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="19" />
+                      <option name="theoryId" value="3507" />
+                      <option name="title" value="Branching statements" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="97" />
+                      <option name="theoryId" value="3602" />
+                      <option name="title" value="Iterating over arrays" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="12" />
+                      <option name="theoryId" value="1933" />
+                      <option name="title" value="Multi-dimensional array" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="3">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="502" />
+                      <option name="theoryId" value="6865" />
+                      <option name="title" value="Units of information" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="362" />
+                      <option name="theoryId" value="5544" />
+                      <option name="title" value="Binary numbers" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="161" />
+                      <option name="theoryId" value="3532" />
+                      <option name="title" value="Sizes and ranges" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="32" />
+                      <option name="theoryId" value="3510" />
+                      <option name="title" value="Type casting" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="94" />
+                      <option name="theoryId" value="3590" />
+                      <option name="title" value="Defining methods" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="4">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="163" />
+                      <option name="theoryId" value="3536" />
+                      <option name="title" value="Errors in programs" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="5">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="117" />
+                      <option name="theoryId" value="3614" />
+                      <option name="title" value="Introduction to OOP" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="115" />
+                      <option name="theoryId" value="3618" />
+                      <option name="title" value="Defining classes" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="96" />
+                      <option name="theoryId" value="4727" />
+                      <option name="title" value="Objects" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="301" />
+                      <option name="theoryId" value="4910" />
+                      <option name="title" value="Random" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="7">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="33" />
+                      <option name="theoryId" value="3504" />
+                      <option name="title" value="Switch statement" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="9">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="266" />
+                      <option name="theoryId" value="4953" />
+                      <option name="title" value="Computer algorithms" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="263" />
+                      <option name="theoryId" value="4991" />
+                      <option name="title" value="The big O notation" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="267" />
+                      <option name="theoryId" value="5161" />
+                      <option name="title" value="Data structures" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="410" />
+                      <option name="theoryId" value="5984" />
+                      <option name="title" value="Recursion basics" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="318" />
+                      <option name="theoryId" value="5252" />
+                      <option name="title" value="Stack" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="319" />
+                      <option name="theoryId" value="5135" />
+                      <option name="title" value="Call stack" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="132" />
+                      <option name="theoryId" value="3550" />
+                      <option name="title" value="Recursion" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </option>
+          <option name="updateDate" value="0" />
+          <option name="hyperskillProject">
+            <HyperskillProject>
+              <option name="description" value="A famous game with a 3x3 field. You can build a simple AI and play against it. You’ll learn to create bots of various types of difficulty." />
+              <option name="id" value="48" />
+              <option name="ideFiles" value="https://stepik.org/media/attachments/lesson/209897/additional_files.json" />
+              <option name="language" value="java" />
+              <option name="templateBased" value="false" />
+              <option name="title" value="Tic-Tac-Toe with AI" />
+              <option name="useIde" value="true" />
+            </HyperskillProject>
+          </option>
+          <option name="items">
+            <list>
+              <FrameworkLesson>
+                <option name="currentTaskIndex" value="8" />
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Tic-Tac-Toe with AI" />
+                <option name="updateDate" value="0" />
+                <option name="unitId" value="0" />
+                <option name="items">
+                  <list>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Tic-tac-toe is a game played by two players on a 3x3 field.&lt;/p&gt;&#10;&#10;&lt;p&gt;One of the players plays as 'X', and the other player is 'O'. 'X' plays first, then the 'O' side plays, and so on.&lt;/p&gt;&#10;&#10;&lt;p&gt;The players write 'X' and 'O' on a 3x3 field.&lt;/p&gt;&#10;&#10;&lt;p&gt;The first player that writes 3 'X' or 3 'O' in a straight line (including diagonals) wins.&lt;br&gt;&#10;    &lt;br&gt;&#10;    Your first task in this project is to print any state of the field in the console output.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;p&gt;The example below shows how your output might look.&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;X O X&#10;O X O&#10;X X O &lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/48/stages/255/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5397" />
+                      <option name="index" value="1" />
+                      <option name="name" value="Print a state of the game field" />
+                      <option name="record" value="1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/TicTacToeTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/TicTacToeTest.java" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;import tictactoe.Main;&#10;&#10;import java.util.List;&#10;&#10;public class TicTacToeTest extends BaseStageTest {&#10;    public TicTacToeTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;&#10;    @Override&#10;    public List&lt;TestCase&gt; generate() {&#10;        return List.of(&#10;            new TestCase()&#10;        );&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Object clue) {&#10;&#10;        reply = reply.replaceAll(&quot;\\s+&quot;, &quot;&quot;);&#10;&#10;        if (reply.length() &gt; 9) {&#10;            return new CheckResult(false,&#10;                &quot;You need to output no more than 9 symbols&quot;);&#10;        }&#10;&#10;        for (char c : reply.toCharArray()) {&#10;            if (c != 'X' &amp;&amp; c != 'O') {&#10;                return new CheckResult(false,&#10;                    &quot;You need to output X and O &quot; +&#10;                        &quot;symbols only not counting spaces&quot;);&#10;            }&#10;        }&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/tictactoe/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/tictactoe/Main.java" />
+                                <option name="text" value="package tictactoe;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1562944369000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;In this stage, you should write a program that reads 11 symbols (notice that input includes &lt;code&gt;&quot;&lt;/code&gt; symbols at the start and in the end of a line) from the input and writes an appropriate 3x3 field. Elements of the field can contain only &lt;code&gt;'X'&lt;/code&gt;, &lt;code&gt;'O'&lt;/code&gt; and &lt;code&gt;' '&lt;/code&gt; symbols (and input contain only these symbols except &lt;code&gt;&quot;&lt;/code&gt; at the start and in the end).&lt;/p&gt;&#10;&#10;&lt;p&gt;Note, that field has a specific format and should start and end with &lt;code&gt;'---------'&lt;/code&gt;, all lines in between should start and end with &lt;code&gt;'|'&lt;/code&gt; symbol and cells and &lt;code&gt;'|'&lt;/code&gt; symbols should be separated with a single space.  &lt;br&gt;&#10; &lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;p&gt;Examples below show how your output should look.&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot;O OXXO XX&quot;&#10;---------&#10;| O   O |&#10;| X X O |&#10;|   X X |&#10;---------&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot;OXO  X OX&quot;&#10;---------&#10;| O X O |&#10;|     X |&#10;|   O X |&#10;---------&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot; XO  X   &quot;&#10;---------&#10;|   X O |&#10;|     X |&#10;|       |&#10;---------&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/48/stages/256/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5398" />
+                      <option name="index" value="2" />
+                      <option name="name" value="Create a simple game field" />
+                      <option name="record" value="2" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/TicTacToeTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/TicTacToeTest.java" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;import tictactoe.Main;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;import java.util.stream.Collectors;&#10;&#10;enum FieldState {&#10;    X, O, FREE;&#10;&#10;    static FieldState get(char symbol) {&#10;        switch (symbol) {&#10;            case 'X': return X;&#10;            case 'O': return O;&#10;            case ' ': return FREE;&#10;            default: return null;&#10;        }&#10;    }&#10;}&#10;&#10;class TicTacToeField {&#10;&#10;    final FieldState[][] field;&#10;&#10;    TicTacToeField(FieldState[][] field) {&#10;        this.field = new FieldState[3][3];&#10;        for (int row = 0; row &lt; 3; row++) {&#10;            for (int col = 0; col &lt; 3; col++) {&#10;                this.field[row][col] = field[row][col];&#10;            }&#10;        }&#10;    }&#10;&#10;    TicTacToeField(String str) {&#10;        field = new FieldState[3][3];&#10;        str = str.replace(&quot;\&quot;&quot;, &quot;&quot;);&#10;&#10;        for (int row = 0; row &lt; 3; row++) {&#10;            for (int col = 0; col &lt; 3; col++) {&#10;                field[row][col] =&#10;                    FieldState.get(str.charAt(((2 - row) * 3 + col)));&#10;            }&#10;        }&#10;    }&#10;&#10;    boolean equalTo(TicTacToeField other) {&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    return false;&#10;                }&#10;            }&#10;        }&#10;        return true;&#10;    }&#10;&#10;    boolean hasNextAs(TicTacToeField other) {&#10;        boolean improved = false;&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    if (field[i][j] == FieldState.FREE &amp;&amp; !improved) {&#10;                        improved = true;&#10;                    }&#10;                    else {&#10;                        return false;&#10;                    }&#10;                }&#10;            }&#10;        }&#10;        return improved;&#10;    }&#10;&#10;    boolean differByOne(TicTacToeField other) {&#10;        boolean haveSingleDifference = false;&#10;&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    if (haveSingleDifference) {&#10;                        return false;&#10;                    }&#10;                    haveSingleDifference = true;&#10;                }&#10;            }&#10;        }&#10;&#10;        return haveSingleDifference;&#10;    }&#10;&#10;    boolean isCloseTo(TicTacToeField other) {&#10;        return equalTo(other)&#10;            || hasNextAs(other)&#10;            || other.hasNextAs(this);&#10;    }&#10;&#10;    static TicTacToeField parse(String fieldStr) {&#10;&#10;        try {&#10;            List&lt;String&gt; lines = fieldStr&#10;                .lines()&#10;                .map(String::strip)&#10;                .filter(e -&gt;&#10;                    e.startsWith(&quot;|&quot;)&#10;                        &amp;&amp; e.endsWith(&quot;|&quot;))&#10;                .collect(Collectors.toList());&#10;&#10;            for (String line : lines) {&#10;                for (char c : line.toCharArray()) {&#10;                    if (c != 'X'&#10;                        &amp;&amp; c != 'O'&#10;                        &amp;&amp; c != '|'&#10;                        &amp;&amp; c != ' ') {&#10;                        return null;&#10;                    }&#10;                }&#10;            }&#10;&#10;            FieldState[][] field = new FieldState[3][3];&#10;&#10;            int y = 2;&#10;            for (String line : lines) {&#10;                char[] cols = new char[] {&#10;                    line.charAt(2),&#10;                    line.charAt(4),&#10;                    line.charAt(6)&#10;                };&#10;&#10;                int x = 0;&#10;                for (char c : cols) {&#10;                    FieldState state = FieldState.get(c);&#10;                    if (state == null) {&#10;                        return null;&#10;                    }&#10;                    field[y][x] = state;&#10;                    x++;&#10;                }&#10;                y--;&#10;            }&#10;&#10;            return new TicTacToeField(field);&#10;        } catch (Exception ex) {&#10;            return null;&#10;        }&#10;    }&#10;&#10;&#10;    static List&lt;TicTacToeField&gt; parseAll(String output) {&#10;        List&lt;TicTacToeField&gt; fields = new ArrayList&lt;&gt;();&#10;&#10;        List&lt;String&gt; lines = output&#10;            .lines()&#10;            .map(String::strip)&#10;            .filter(e -&gt; e.length() &gt; 0)&#10;            .collect(Collectors.toList());&#10;&#10;        String candidateField = &quot;&quot;;&#10;        boolean insideField = false;&#10;        for (String line : lines) {&#10;            if (line.contains(&quot;----&quot;) &amp;&amp; !insideField) {&#10;                insideField = true;&#10;                candidateField = &quot;&quot;;&#10;            } else if (line.contains(&quot;----&quot;) &amp;&amp; insideField) {&#10;                TicTacToeField field = TicTacToeField.parse(candidateField);&#10;                if (field != null) {&#10;                    fields.add(field);&#10;                }&#10;                insideField = false;&#10;            }&#10;&#10;            if (insideField &amp;&amp; line.startsWith(&quot;|&quot;)) {&#10;                candidateField += line + &quot;\n&quot;;&#10;            }&#10;        }&#10;&#10;        return fields;&#10;    }&#10;&#10;}&#10;&#10;public class TicTacToeTest extends BaseStageTest&lt;String&gt; {&#10;    public TicTacToeTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;String&gt;&gt; generate() {&#10;        List&lt;TestCase&lt;String&gt;&gt; tests = List.of(&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;O OXXO XX&quot;),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;OXO  X OX&quot;),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot;         &quot;),&#10;&#10;            new TestCase&lt;String&gt;()&#10;                .setInput(&quot; O  X   X&quot;)&#10;        );&#10;&#10;        for (TestCase&lt;String&gt; test: tests) {&#10;            test.setInput(&quot;\&quot;&quot; + test.getInput() + &quot;\&quot;&quot;);&#10;            test.setAttach(test.getInput());&#10;        }&#10;&#10;        return tests;&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, String clue) {&#10;&#10;        List&lt;TicTacToeField&gt; fields = TicTacToeField.parseAll(reply);&#10;&#10;        if (fields.size() == 0) {&#10;            return new CheckResult(false,&#10;                &quot;Can't parse the field! &quot; +&#10;                &quot;Check if you output a field in format like in the example.&quot;);&#10;        }&#10;&#10;        if (fields.size() &gt; 1) {&#10;            return new CheckResult(false,&#10;                &quot;There are more than one field in the output! &quot; +&#10;                &quot;You should output a single field.&quot;);&#10;        }&#10;&#10;        TicTacToeField userField = fields.get(0);&#10;        TicTacToeField inputField = new TicTacToeField(clue);&#10;&#10;        if (!userField.equalTo(inputField)) {&#10;            return new CheckResult(false,&#10;                &quot;Your field doesn't match expected field&quot;);&#10;        }&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/tictactoe/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/tictactoe/Main.java" />
+                                <option name="text" value="package tictactoe;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1562944369000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;In this stage, you should analyze a Tic-Tac-Toe field. &lt;br&gt;&#10;&lt;br&gt;&#10;&lt;strong&gt;Note.&lt;/strong&gt; In this stage either 'X' or 'O' can start the game.&lt;/p&gt;&#10;&#10;&lt;p&gt;After printing the field, you need to find the state in which the game is at the moment. Possible states:&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;&#9;&lt;li&gt;&lt;code&gt;&quot;Game not finished&quot;&lt;/code&gt; - when no side has a three in a row but the field has empty cells;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;code&gt;&quot;Draw&quot;&lt;/code&gt; - when no side has a three in a row and the field has no empty cells;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;code&gt;&quot;X wins&quot;&lt;/code&gt; - when the field has three X in a row;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;code&gt;&quot;O wins&quot;&lt;/code&gt; - when the field has three O in a row;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;code&gt;&quot;Impossible&quot;&lt;/code&gt; - when the field has three X in a row as well as three O in a row. Or the field has a lot more X's that O's or vice versa (if the difference is 2 or more, should be 1 or 0).&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;p&gt;The examples below show outputs for some predefined states. Your program should work in the same way.&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot;XXXOO  O &quot;&#10;---------&#10;| X X X |&#10;| O O   |&#10;|   O   |&#10;---------&#10;X wins&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot;XOXOXOXXO&quot;&#10;---------&#10;| X O X |&#10;| O X O |&#10;| X X O |&#10;---------&#10;X wins&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot;XOOOXOXXO&quot;&#10;---------&#10;| X O O |&#10;| O X O |&#10;| X X O |&#10;---------&#10;O wins&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot;XOXOOXXXO&quot;&#10;---------&#10;| X O X |&#10;| O O X |&#10;| X X O |&#10;---------&#10;Draw&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot;XO OOX X &quot;&#10;---------&#10;| X O   |&#10;| O O X |&#10;|   X   |&#10;---------&#10;Game not finished&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot;XO XO XOX&quot;&#10;---------&#10;| X O   |&#10;| X O   |&#10;| X O X |&#10;---------&#10;Impossible&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot; O X  X X&quot;&#10;---------&#10;|   O   |&#10;| X     |&#10;| X   X |&#10;---------&#10;Impossible&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot; OOOO X X&quot;&#10;---------&#10;|   O O |&#10;| O O   |&#10;| X   X |&#10;---------&#10;Impossible&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/48/stages/257/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5399" />
+                      <option name="index" value="3" />
+                      <option name="name" value="Print the game state" />
+                      <option name="record" value="3" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/TicTacToeTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/TicTacToeTest.java" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;import tictactoe.Main;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;import java.util.stream.Collectors;&#10;&#10;&#10;class Attach {&#10;    String input;&#10;    String result;&#10;&#10;    Attach(String result) {&#10;        this.result = result;&#10;    }&#10;}&#10;&#10;enum FieldState {&#10;    X, O, FREE;&#10;&#10;    static FieldState get(char symbol) {&#10;        switch (symbol) {&#10;            case 'X': return X;&#10;            case 'O': return O;&#10;            case ' ': return FREE;&#10;            default: return null;&#10;        }&#10;    }&#10;}&#10;&#10;class TicTacToeField {&#10;&#10;    final FieldState[][] field;&#10;&#10;    TicTacToeField(FieldState[][] field) {&#10;        this.field = new FieldState[3][3];&#10;        for (int row = 0; row &lt; 3; row++) {&#10;            for (int col = 0; col &lt; 3; col++) {&#10;                this.field[row][col] = field[row][col];&#10;            }&#10;        }&#10;    }&#10;&#10;    TicTacToeField(String str) {&#10;        field = new FieldState[3][3];&#10;        str = str.replace(&quot;\&quot;&quot;, &quot;&quot;);&#10;&#10;        for (int row = 0; row &lt; 3; row++) {&#10;            for (int col = 0; col &lt; 3; col++) {&#10;                field[row][col] =&#10;                    FieldState.get(str.charAt(((2 - row) * 3 + col)));&#10;            }&#10;        }&#10;    }&#10;&#10;    boolean equalTo(TicTacToeField other) {&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    return false;&#10;                }&#10;            }&#10;        }&#10;        return true;&#10;    }&#10;&#10;    boolean hasNextAs(TicTacToeField other) {&#10;        boolean improved = false;&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    if (field[i][j] == FieldState.FREE &amp;&amp; !improved) {&#10;                        improved = true;&#10;                    }&#10;                    else {&#10;                        return false;&#10;                    }&#10;                }&#10;            }&#10;        }&#10;        return improved;&#10;    }&#10;&#10;    boolean differByOne(TicTacToeField other) {&#10;        boolean haveSingleDifference = false;&#10;&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    if (haveSingleDifference) {&#10;                        return false;&#10;                    }&#10;                    haveSingleDifference = true;&#10;                }&#10;            }&#10;        }&#10;&#10;        return haveSingleDifference;&#10;    }&#10;&#10;    boolean isCloseTo(TicTacToeField other) {&#10;        return equalTo(other)&#10;            || hasNextAs(other)&#10;            || other.hasNextAs(this);&#10;    }&#10;&#10;    static TicTacToeField parse(String fieldStr) {&#10;&#10;        try {&#10;            List&lt;String&gt; lines = fieldStr&#10;                .lines()&#10;                .map(String::strip)&#10;                .filter(e -&gt;&#10;                    e.startsWith(&quot;|&quot;)&#10;                        &amp;&amp; e.endsWith(&quot;|&quot;))&#10;                .collect(Collectors.toList());&#10;&#10;            for (String line : lines) {&#10;                for (char c : line.toCharArray()) {&#10;                    if (c != 'X'&#10;                        &amp;&amp; c != 'O'&#10;                        &amp;&amp; c != '|'&#10;                        &amp;&amp; c != ' ') {&#10;                        return null;&#10;                    }&#10;                }&#10;            }&#10;&#10;            FieldState[][] field = new FieldState[3][3];&#10;&#10;            int y = 2;&#10;            for (String line : lines) {&#10;                char[] cols = new char[] {&#10;                    line.charAt(2),&#10;                    line.charAt(4),&#10;                    line.charAt(6)&#10;                };&#10;&#10;                int x = 0;&#10;                for (char c : cols) {&#10;                    FieldState state = FieldState.get(c);&#10;                    if (state == null) {&#10;                        return null;&#10;                    }&#10;                    field[y][x] = state;&#10;                    x++;&#10;                }&#10;                y--;&#10;            }&#10;&#10;            return new TicTacToeField(field);&#10;        } catch (Exception ex) {&#10;            return null;&#10;        }&#10;    }&#10;&#10;&#10;    static List&lt;TicTacToeField&gt; parseAll(String output) {&#10;        List&lt;TicTacToeField&gt; fields = new ArrayList&lt;&gt;();&#10;&#10;        List&lt;String&gt; lines = output&#10;            .lines()&#10;            .map(String::strip)&#10;            .filter(e -&gt; e.length() &gt; 0)&#10;            .collect(Collectors.toList());&#10;&#10;        String candidateField = &quot;&quot;;&#10;        boolean insideField = false;&#10;        for (String line : lines) {&#10;            if (line.contains(&quot;----&quot;) &amp;&amp; !insideField) {&#10;                insideField = true;&#10;                candidateField = &quot;&quot;;&#10;            } else if (line.contains(&quot;----&quot;) &amp;&amp; insideField) {&#10;                TicTacToeField field = TicTacToeField.parse(candidateField);&#10;                if (field != null) {&#10;                    fields.add(field);&#10;                }&#10;                insideField = false;&#10;            }&#10;&#10;            if (insideField &amp;&amp; line.startsWith(&quot;|&quot;)) {&#10;                candidateField += line + &quot;\n&quot;;&#10;            }&#10;        }&#10;&#10;        return fields;&#10;    }&#10;&#10;}&#10;&#10;public class TicTacToeTest extends BaseStageTest&lt;Attach&gt; {&#10;    public TicTacToeTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Attach&gt;&gt; generate() {&#10;        List&lt;TestCase&lt;Attach&gt;&gt; tests = List.of(&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot;XXXOO  O &quot;)&#10;                .setAttach(new Attach(&quot;X wins&quot;)),&#10;&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot;XOXOXOXXO&quot;)&#10;                .setAttach(new Attach(&quot;X wins&quot;)),&#10;&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot;XOOOXOXXO&quot;)&#10;                .setAttach(new Attach(&quot;O wins&quot;)),&#10;&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot;XOXOOXXXO&quot;)&#10;                .setAttach(new Attach(&quot;Draw&quot;)),&#10;&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot;XO OOX X &quot;)&#10;                .setAttach(new Attach(&quot;Game not finished&quot;)),&#10;&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot;XO XO XOX&quot;)&#10;                .setAttach(new Attach(&quot;Impossible&quot;)),&#10;&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot; O X  X X&quot;)&#10;                .setAttach(new Attach(&quot;Impossible&quot;)),&#10;&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot; OOOO X X&quot;)&#10;                .setAttach(new Attach( &quot;Impossible&quot;))&#10;        );&#10;&#10;        for (TestCase&lt;Attach&gt; test : tests) {&#10;            test.setInput(&quot;\&quot;&quot; + test.getInput() + &quot;\&quot;&quot;);&#10;            test.getAttach().input = test.getInput();&#10;        }&#10;&#10;        return tests;&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Attach clue) {&#10;&#10;        List&lt;TicTacToeField&gt; fields = TicTacToeField.parseAll(reply);&#10;&#10;        if (fields.size() == 0) {&#10;            return new CheckResult(false,&#10;                &quot;Can't parse the field! &quot; +&#10;                    &quot;Check if you output a field in format like in the example.&quot;);&#10;        }&#10;&#10;        if (fields.size() &gt; 1) {&#10;            return new CheckResult(false,&#10;                &quot;There are more than one field in the output! &quot; +&#10;                    &quot;You should output a single field.&quot;);&#10;        }&#10;&#10;        TicTacToeField userField = fields.get(0);&#10;        TicTacToeField inputField = new TicTacToeField(clue.input);&#10;&#10;        if (!userField.equalTo(inputField)) {&#10;            return new CheckResult(false,&#10;                &quot;Your field doesn't match expected field&quot;);&#10;        }&#10;&#10;        List&lt;String&gt; lines = reply&#10;            .strip()&#10;            .lines()&#10;            .map(String::strip)&#10;            .filter(e -&gt; e.length() &gt; 0)&#10;            .collect(Collectors.toList());&#10;&#10;        String lastLine = lines.get(lines.size() - 1);&#10;&#10;        if (! (lastLine.equals(&quot;X wins&quot;)&#10;                || lastLine.equals(&quot;O wins&quot;)&#10;                || lastLine.equals(&quot;Draw&quot;)&#10;                || lastLine.equals(&quot;Game not finished&quot;)&#10;                || lastLine.equals(&quot;Impossible&quot;)&#10;        )) {&#10;            return new CheckResult(false,&#10;                &quot;Can't parse result, &quot; +&#10;                    &quot;should be one of the outcomes mentioned in description. &quot; +&#10;                    &quot;Your last line: \&quot;&quot; + lastLine + &quot;\&quot;&quot;);&#10;        }&#10;&#10;        if (!lastLine.equals(clue.result)) {&#10;            return new CheckResult(false,&#10;                &quot;The result is incorrect. &quot; +&#10;                    &quot;Should be: \&quot;&quot; + clue.result + &quot;\&quot;, &quot; +&#10;                    &quot;found: \&quot;&quot; + lastLine + &quot;\&quot;. &quot; +&#10;                    &quot;Check if your program works correctly in test examples in description.&quot;);&#10;        }&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/tictactoe/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/tictactoe/Main.java" />
+                                <option name="text" value="package tictactoe;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1562944384000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Now you need to implement human moves.&lt;/p&gt;&#10;&#10;&lt;p&gt;Suppose the bottom left cell has the coordinates (1, 1) and the top right cell has the coordinates (3, 3) like in this table:&lt;br&gt;&#10;&lt;br&gt;&#10;(1, 3) (2, 3) (3, 3)&lt;br&gt;&#10;(1, 2) (2, 2) (3, 2)&lt;br&gt;&#10;(1, 1) (2, 1) (3, 1)&lt;/p&gt;&#10;&#10;&lt;p&gt;The program should work in the following way:&lt;/p&gt;&#10;&#10;&lt;ol&gt;&#10;&#9;&lt;li&gt;Get the 3x3 field from the input as in the previous stages,&lt;/li&gt;&#10;&#9;&lt;li&gt;Output this 3x3 field with cells before the user's move,&lt;/li&gt;&#10;&#9;&lt;li&gt;Then ask the user about his next move,&lt;/li&gt;&#10;&#9;&lt;li&gt;Then the user should input 2 numbers that represent the cell on which user wants to make his X or O. (9 symbols representing the field would be on the first line and these 2 numbers would be on the second line of the user input),&lt;/li&gt;&#10;&#9;&lt;li&gt;Then output the table including the user's most recent move.&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;p&gt;Do not delete code that checks for table state; it will be useful in the future.&lt;/p&gt;&#10;&#10;&lt;p&gt;Note that in this stage user moves as X, not O. Keep in mind that the first coordinate goes from left to right and the second coordinate goes from bottom to top. Also, notice that coordinates start with 1 and can be 1, 2 or 3.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;p&gt;The examples below shows how your program should work.&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot;X X O    &quot;&#10;---------&#10;| X   X |&#10;|   O   |&#10;|       |&#10;---------&#10;Enter the coordinates: 1 1&#10;---------&#10;| X   X |&#10;|   O   |&#10;| X     |&#10;---------&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot; XXOO OX &quot;&#10;---------&#10;|   X X |&#10;| O O   |&#10;| O X   |&#10;---------&#10;Enter the coordinates: 1 3&#10;---------&#10;| X X X |&#10;| O O   |&#10;| O X   |&#10;---------&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot; XXOO OX &quot;&#10;---------&#10;|   X X |&#10;| O O   |&#10;| O X   |&#10;---------&#10;Enter the coordinates: 3 1&#10;---------&#10;|   X X |&#10;| O O   |&#10;| O X X |&#10;---------&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot; XXOO OX &quot;&#10;---------&#10;|   X X |&#10;| O O   |&#10;| O X   |&#10;---------&#10;Enter the coordinates: 3 2&#10;---------&#10;|   X X |&#10;| O O X |&#10;| O X   |&#10;---------&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/48/stages/258/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5400" />
+                      <option name="index" value="4" />
+                      <option name="name" value="Create a human move" />
+                      <option name="record" value="4" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/TicTacToeTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/TicTacToeTest.java" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;import tictactoe.Main;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;import java.util.stream.Collectors;&#10;&#10;&#10;class Attach {&#10;    String inputField;&#10;    String outField;&#10;&#10;    Attach(String inputField, String outField) {&#10;        this.inputField = inputField;&#10;        this.outField = outField;&#10;    }&#10;}&#10;&#10;&#10;enum FieldState {&#10;    X, O, FREE;&#10;&#10;    static FieldState get(char symbol) {&#10;        switch (symbol) {&#10;            case 'X': return X;&#10;            case 'O': return O;&#10;            case ' ': return FREE;&#10;            default: return null;&#10;        }&#10;    }&#10;}&#10;&#10;class TicTacToeField {&#10;&#10;    final FieldState[][] field;&#10;&#10;    TicTacToeField(FieldState[][] field) {&#10;        this.field = new FieldState[3][3];&#10;        for (int row = 0; row &lt; 3; row++) {&#10;            for (int col = 0; col &lt; 3; col++) {&#10;                this.field[row][col] = field[row][col];&#10;            }&#10;        }&#10;    }&#10;&#10;    TicTacToeField(String str) {&#10;        field = new FieldState[3][3];&#10;        str = str.replace(&quot;\&quot;&quot;, &quot;&quot;);&#10;&#10;        for (int row = 0; row &lt; 3; row++) {&#10;            for (int col = 0; col &lt; 3; col++) {&#10;                field[row][col] =&#10;                    FieldState.get(str.charAt(((2 - row) * 3 + col)));&#10;            }&#10;        }&#10;    }&#10;&#10;    boolean equalTo(TicTacToeField other) {&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    return false;&#10;                }&#10;            }&#10;        }&#10;        return true;&#10;    }&#10;&#10;    boolean hasNextAs(TicTacToeField other) {&#10;        boolean improved = false;&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    if (field[i][j] == FieldState.FREE &amp;&amp; !improved) {&#10;                        improved = true;&#10;                    }&#10;                    else {&#10;                        return false;&#10;                    }&#10;                }&#10;            }&#10;        }&#10;        return improved;&#10;    }&#10;&#10;    boolean differByOne(TicTacToeField other) {&#10;        boolean haveSingleDifference = false;&#10;&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    if (haveSingleDifference) {&#10;                        return false;&#10;                    }&#10;                    haveSingleDifference = true;&#10;                }&#10;            }&#10;        }&#10;&#10;        return haveSingleDifference;&#10;    }&#10;&#10;    boolean isCloseTo(TicTacToeField other) {&#10;        return equalTo(other)&#10;            || hasNextAs(other)&#10;            || other.hasNextAs(this);&#10;    }&#10;&#10;    static TicTacToeField parse(String fieldStr) {&#10;&#10;        try {&#10;            List&lt;String&gt; lines = fieldStr&#10;                .lines()&#10;                .map(String::strip)&#10;                .filter(e -&gt;&#10;                    e.startsWith(&quot;|&quot;)&#10;                        &amp;&amp; e.endsWith(&quot;|&quot;))&#10;                .collect(Collectors.toList());&#10;&#10;            for (String line : lines) {&#10;                for (char c : line.toCharArray()) {&#10;                    if (c != 'X'&#10;                        &amp;&amp; c != 'O'&#10;                        &amp;&amp; c != '|'&#10;                        &amp;&amp; c != ' ') {&#10;                        return null;&#10;                    }&#10;                }&#10;            }&#10;&#10;            FieldState[][] field = new FieldState[3][3];&#10;&#10;            int y = 2;&#10;            for (String line : lines) {&#10;                char[] cols = new char[] {&#10;                    line.charAt(2),&#10;                    line.charAt(4),&#10;                    line.charAt(6)&#10;                };&#10;&#10;                int x = 0;&#10;                for (char c : cols) {&#10;                    FieldState state = FieldState.get(c);&#10;                    if (state == null) {&#10;                        return null;&#10;                    }&#10;                    field[y][x] = state;&#10;                    x++;&#10;                }&#10;                y--;&#10;            }&#10;&#10;            return new TicTacToeField(field);&#10;        } catch (Exception ex) {&#10;            return null;&#10;        }&#10;    }&#10;&#10;&#10;    static List&lt;TicTacToeField&gt; parseAll(String output) {&#10;        List&lt;TicTacToeField&gt; fields = new ArrayList&lt;&gt;();&#10;&#10;        List&lt;String&gt; lines = output&#10;            .lines()&#10;            .map(String::strip)&#10;            .filter(e -&gt; e.length() &gt; 0)&#10;            .collect(Collectors.toList());&#10;&#10;        String candidateField = &quot;&quot;;&#10;        boolean insideField = false;&#10;        for (String line : lines) {&#10;            if (line.contains(&quot;----&quot;) &amp;&amp; !insideField) {&#10;                insideField = true;&#10;                candidateField = &quot;&quot;;&#10;            } else if (line.contains(&quot;----&quot;) &amp;&amp; insideField) {&#10;                TicTacToeField field = TicTacToeField.parse(candidateField);&#10;                if (field != null) {&#10;                    fields.add(field);&#10;                }&#10;                insideField = false;&#10;            }&#10;&#10;            if (insideField &amp;&amp; line.startsWith(&quot;|&quot;)) {&#10;                candidateField += line + &quot;\n&quot;;&#10;            }&#10;        }&#10;&#10;        return fields;&#10;    }&#10;&#10;}&#10;&#10;public class TicTacToeTest extends BaseStageTest&lt;Attach&gt; {&#10;    public TicTacToeTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Attach&gt;&gt; generate() {&#10;        return List.of(&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot;\&quot;X X O    \&quot;\n1 2&quot;)&#10;                .setAttach(new Attach(&#10;                    &quot;\&quot;X X O    \&quot;&quot;,&#10;                     &quot;\&quot;X XXO    \&quot;&quot;)),&#10;&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot;\&quot;X X O    \&quot;\n1 1&quot;)&#10;                .setAttach(new Attach(&#10;                    &quot;\&quot;X X O    \&quot;&quot;,&#10;                     &quot;\&quot;X X O X  \&quot;&quot;)),&#10;&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot;\&quot;X X O    \&quot;\n3 2&quot;)&#10;                .setAttach(new Attach(&#10;                    &quot;\&quot;X X O    \&quot;&quot;,&#10;                     &quot;\&quot;X X OX   \&quot;&quot;)),&#10;&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot;\&quot;X X O    \&quot;\n2 1&quot;)&#10;                .setAttach(new Attach(&#10;                    &quot;\&quot;X X O    \&quot;&quot;,&#10;                     &quot;\&quot;X X O  X \&quot;&quot;)),&#10;&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot;\&quot; XXOO OX \&quot;\n1 3&quot;)&#10;                .setAttach(new Attach(&#10;                    &quot;\&quot; XXOO OX \&quot;&quot;,&#10;                     &quot;\&quot;XXXOO OX \&quot;&quot;)),&#10;&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot;\&quot; XXOO OX \&quot;\n3 1&quot;)&#10;                .setAttach(new Attach(&#10;                    &quot;\&quot; XXOO OX \&quot;&quot;,&#10;                     &quot;\&quot; XXOO OXX\&quot;&quot;)),&#10;&#10;            new TestCase&lt;Attach&gt;()&#10;                .setInput(&quot;\&quot; XXOO OX \&quot;\n3 2&quot;)&#10;                .setAttach(new Attach(&#10;                    &quot;\&quot; XXOO OX \&quot;&quot;,&#10;                     &quot;\&quot; XXOOXOX \&quot;&quot;))&#10;&#10;        );&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Attach clue) {&#10;&#10;        List&lt;TicTacToeField&gt; fields = TicTacToeField.parseAll(reply);&#10;&#10;        if (fields.size() != 2) {&#10;            return new CheckResult(false,&#10;                &quot;You should output exactly 2 fields, found: &quot; + fields.size());&#10;        }&#10;&#10;        TicTacToeField curr = fields.get(0);&#10;        TicTacToeField next = fields.get(1);&#10;&#10;        TicTacToeField correctCurr = new TicTacToeField(clue.inputField);&#10;        TicTacToeField correctNext = new TicTacToeField(clue.outField);&#10;&#10;        if (!curr.equalTo(correctCurr)) {&#10;            return new CheckResult(false,&#10;                &quot;The first field is not equal to the input field&quot;);&#10;        }&#10;&#10;        if (!next.equalTo(correctNext)) {&#10;            return new CheckResult(false,&#10;                &quot;The first field is correct, but the second is not&quot;);&#10;        }&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/tictactoe/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/tictactoe/Main.java" />
+                                <option name="text" value="package tictactoe;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1565199238000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;But what if the user enters incorrect coordinates? The user could enter symbols instead of numbers or enter coordinates representing occupied cells. You need to prevent all of that by checking a user's input and catching possible exceptions.&lt;/p&gt;&#10;&#10;&lt;p&gt;The program should do everything from the previous step but also check user input. If the user input is unsuitable, the program should ask him to enter coordinates again. &lt;/p&gt;&#10;&#10;&lt;p&gt;So, in this stage, you need to output a field from the first line of the input and then ask the user to enter a move. Keep asking until the user enters coordinate that represents an empty cell on the field and after that output the field with that move. You should output the field only 2 times - before the move and after a legal move.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;p&gt;The examples below show how your program should work.&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot; XXOO OX &quot;&#10;---------&#10;|   X X |&#10;| O O   |&#10;| O X   |&#10;---------&#10;Enter the coordinates: 1 1&#10;This cell is occupied! Choose another one!&#10;Enter the coordinates: 1 3&#10;---------&#10;| X X X |&#10;| O O   |&#10;| O X   |&#10;---------&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot; XXOO OX &quot;&#10;---------&#10;|   X X |&#10;| O O   |&#10;| O X   |&#10;---------&#10;Enter the coordinates: one&#10;You should enter numbers!&#10;Enter the coordinates: one three&#10;You should enter numbers!&#10;Enter the coordinates: 1 3&#10;---------&#10;| X X X |&#10;| O O   |&#10;| O X   |&#10;---------&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot; XXOO OX &quot;&#10;---------&#10;|   X X |&#10;| O O   |&#10;| O X   |&#10;---------&#10;Enter the coordinates: 4 1&#10;Coordinates should be from 1 to 3!&#10;Enter the coordinates: 1 4&#10;Coordinates should be from 1 to 3!&#10;Enter the coordinates: 1 3&#10;---------&#10;| X X X |&#10;| O O   |&#10;| O X   |&#10;---------&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/48/stages/259/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5401" />
+                      <option name="index" value="5" />
+                      <option name="name" value="Find errors in user input" />
+                      <option name="record" value="5" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/TicTacToeTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/TicTacToeTest.java" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;import tictactoe.Main;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;import java.util.stream.Collectors;&#10;&#10;enum FieldState {&#10;    X, O, FREE;&#10;&#10;    static FieldState get(char symbol) {&#10;        switch (symbol) {&#10;            case 'X': return X;&#10;            case 'O': return O;&#10;            case ' ': return FREE;&#10;            default: return null;&#10;        }&#10;    }&#10;}&#10;&#10;class TicTacToeField {&#10;&#10;    final FieldState[][] field;&#10;&#10;    TicTacToeField(FieldState[][] field) {&#10;        this.field = new FieldState[3][3];&#10;        for (int row = 0; row &lt; 3; row++) {&#10;            for (int col = 0; col &lt; 3; col++) {&#10;                this.field[row][col] = field[row][col];&#10;            }&#10;        }&#10;    }&#10;&#10;    TicTacToeField(String str) {&#10;        field = new FieldState[3][3];&#10;        str = str.replace(&quot;\&quot;&quot;, &quot;&quot;);&#10;&#10;        for (int row = 0; row &lt; 3; row++) {&#10;            for (int col = 0; col &lt; 3; col++) {&#10;                field[row][col] =&#10;                    FieldState.get(str.charAt(((2 - row) * 3 + col)));&#10;            }&#10;        }&#10;    }&#10;&#10;    boolean equalTo(TicTacToeField other) {&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    return false;&#10;                }&#10;            }&#10;        }&#10;        return true;&#10;    }&#10;&#10;    boolean hasNextAs(TicTacToeField other) {&#10;        boolean improved = false;&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    if (field[i][j] == FieldState.FREE &amp;&amp; !improved) {&#10;                        improved = true;&#10;                    }&#10;                    else {&#10;                        return false;&#10;                    }&#10;                }&#10;            }&#10;        }&#10;        return improved;&#10;    }&#10;&#10;    boolean isCloseTo(TicTacToeField other) {&#10;        return equalTo(other)&#10;            || hasNextAs(other)&#10;            || other.hasNextAs(this);&#10;    }&#10;&#10;    static TicTacToeField parse(String fieldStr) {&#10;&#10;        try {&#10;            List&lt;String&gt; lines = fieldStr&#10;                .lines()&#10;                .map(String::strip)&#10;                .filter(e -&gt;&#10;                    e.startsWith(&quot;|&quot;)&#10;                        &amp;&amp; e.endsWith(&quot;|&quot;))&#10;                .collect(Collectors.toList());&#10;&#10;            for (String line : lines) {&#10;                for (char c : line.toCharArray()) {&#10;                    if (c != 'X'&#10;                        &amp;&amp; c != 'O'&#10;                        &amp;&amp; c != '|'&#10;                        &amp;&amp; c != ' ') {&#10;                        return null;&#10;                    }&#10;                }&#10;            }&#10;&#10;            FieldState[][] field = new FieldState[3][3];&#10;&#10;            int y = 2;&#10;            for (String line : lines) {&#10;                char[] cols = new char[] {&#10;                    line.charAt(2),&#10;                    line.charAt(4),&#10;                    line.charAt(6)&#10;                };&#10;&#10;                int x = 0;&#10;                for (char c : cols) {&#10;                    FieldState state = FieldState.get(c);&#10;                    if (state == null) {&#10;                        return null;&#10;                    }&#10;                    field[y][x] = state;&#10;                    x++;&#10;                }&#10;                y--;&#10;            }&#10;&#10;            return new TicTacToeField(field);&#10;        } catch (Exception ex) {&#10;            return null;&#10;        }&#10;    }&#10;&#10;&#10;    static List&lt;TicTacToeField&gt; parseAll(String output) {&#10;        List&lt;TicTacToeField&gt; fields = new ArrayList&lt;&gt;();&#10;&#10;        List&lt;String&gt; lines = output&#10;            .lines()&#10;            .map(String::strip)&#10;            .filter(e -&gt; e.length() &gt; 0)&#10;            .collect(Collectors.toList());&#10;&#10;        String candidateField = &quot;&quot;;&#10;        boolean insideField = false;&#10;        for (String line : lines) {&#10;            if (line.contains(&quot;----&quot;) &amp;&amp; !insideField) {&#10;                insideField = true;&#10;                candidateField = &quot;&quot;;&#10;            } else if (line.contains(&quot;----&quot;) &amp;&amp; insideField) {&#10;                TicTacToeField field = TicTacToeField.parse(candidateField);&#10;                if (field != null) {&#10;                    fields.add(field);&#10;                }&#10;                insideField = false;&#10;            }&#10;&#10;            if (insideField &amp;&amp; line.startsWith(&quot;|&quot;)) {&#10;                candidateField += line + &quot;\n&quot;;&#10;            }&#10;        }&#10;&#10;        return fields;&#10;    }&#10;&#10;}&#10;&#10;&#10;class Clue {&#10;    int x, y;&#10;    String input;&#10;    Clue(String input, int x, int y) {&#10;        this.input = input;&#10;        this.x = x;&#10;        this.y = y;&#10;    }&#10;}&#10;&#10;public class TicTacToeTest extends BaseStageTest&lt;Clue&gt; {&#10;    public TicTacToeTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    // TODO: why if this field in not static then it is null, not String[]?&#10;    static final String[] inputs = new String[] {&#10;        &quot;1 1&quot;, &quot;1 2&quot;, &quot;1 3&quot;,&#10;        &quot;2 1&quot;, &quot;2 2&quot;, &quot;2 3&quot;,&#10;        &quot;3 1&quot;, &quot;3 2&quot;, &quot;3 3&quot;&#10;    };&#10;&#10;    String iterateCells(String initial) {&#10;        int index = -1;&#10;        for (int i = 0; i &lt; inputs.length; i++) {&#10;            if (initial.equals(inputs[i])) {&#10;                index = i;&#10;                break;&#10;            }&#10;        }&#10;        if (index == -1) {&#10;            return &quot;&quot;;&#10;        }&#10;        String fullInput = &quot;&quot;;&#10;        for (int i = index; i &lt; index + 9; i++) {&#10;            fullInput += inputs[i % inputs.length] + &quot;\n&quot;;&#10;        }&#10;        return fullInput;&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Clue&gt;&gt; generate() {&#10;&#10;        List&lt;TestCase&lt;Clue&gt;&gt; tests = new ArrayList&lt;&gt;();&#10;&#10;        int i = 0;&#10;&#10;        for (String startField : new String[] {&#10;            &quot;\&quot; XXOO OX \&quot;&quot;,&#10;            &quot;\&quot;         \&quot;&quot;,&#10;            &quot;\&quot;X X O    \&quot;&quot;&#10;        }) {&#10;&#10;            for (String input : inputs) {&#10;                String fullInput = iterateCells(input);&#10;&#10;                String[] strNums = input.split(&quot;\\s+&quot;);&#10;                int x = Integer.parseInt(strNums[0]);&#10;                int y = Integer.parseInt(strNums[1]);&#10;&#10;                if (i % 2 == 1) {&#10;                    // mix with incorrect data&#10;                    fullInput = &quot;4 &quot; + i + &quot;\n&quot; + fullInput;&#10;                }&#10;&#10;                tests.add(new TestCase&lt;Clue&gt;()&#10;                    .setInput(startField + &quot;\n&quot; + fullInput)&#10;                    .setAttach(new Clue(startField, x, y)));&#10;&#10;                i++;&#10;            }&#10;&#10;        }&#10;&#10;        return tests;&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Clue clue) {&#10;&#10;        List&lt;TicTacToeField&gt; fields = TicTacToeField.parseAll(reply);&#10;&#10;        if (fields.size() != 2) {&#10;            return new CheckResult(false,&#10;                &quot;Can't find two fields inside output&quot;);&#10;        }&#10;&#10;        TicTacToeField curr = fields.get(0);&#10;        TicTacToeField next = fields.get(1);&#10;&#10;        TicTacToeField correctCurr = new TicTacToeField(clue.input);&#10;        TicTacToeField correctNext = new TicTacToeField(correctCurr.field);&#10;&#10;        String[] numInputs = iterateCells(clue.x + &quot; &quot; + clue.y).split(&quot;\n&quot;);&#10;        for (String input : numInputs) {&#10;            String[] strNums = input.split(&quot; &quot;);&#10;            int x = Integer.parseInt(strNums[0]);&#10;            int y = Integer.parseInt(strNums[1]);&#10;            if (correctNext.field[y - 1][x - 1] == FieldState.FREE) {&#10;                correctNext.field[y - 1][x - 1] = FieldState.X;&#10;                break;&#10;            }&#10;        }&#10;&#10;        if (!curr.equalTo(correctCurr)) {&#10;            return new CheckResult(false,&#10;                &quot;The first field is not equal to the input field&quot;);&#10;        }&#10;&#10;        if (!next.equalTo(correctNext)) {&#10;            return new CheckResult(false,&#10;                &quot;The first field is correct, but the second is not&quot;);&#10;        }&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/tictactoe/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/tictactoe/Main.java" />
+                                <option name="text" value="package tictactoe;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1562944369000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Now let's program moves that a computer can make. In our game, there will be three different levels of difficulty.&lt;/p&gt;&#10;&#10;&lt;p&gt;In this step, you will program the &quot;easy&quot; level. This level just makes random moves. The program won't change much from the previous step. Just save the user's move logic somewhere (preferably in a separate method)—you will need it in the future—and implement the &quot;easy&quot; level move logic.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;p&gt;The examples below shows how your program should work.&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot;  XO  OX &quot;&#10;---------&#10;|     X |&#10;| O     |&#10;| O X   |&#10;---------&#10;Making move level &quot;easy&quot;&#10;---------&#10;|     X |&#10;| O     |&#10;| O X X |&#10;---------&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot;  XO  OX &quot;&#10;---------&#10;|     X |&#10;| O     |&#10;| O X   |&#10;---------&#10;Making move level &quot;easy&quot;&#10;---------&#10;|   X X |&#10;| O     |&#10;| O X   |&#10;---------&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter cells: &quot;  XO  OX &quot;&#10;---------&#10;|     X |&#10;| O     |&#10;| O X   |&#10;---------&#10;Making move level &quot;easy&quot;&#10;---------&#10;|     X |&#10;| O   X |&#10;| O X   |&#10;---------&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/48/stages/260/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5402" />
+                      <option name="index" value="6" />
+                      <option name="name" value="Make an &quot;easy&quot; difficulty level" />
+                      <option name="record" value="6" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/TicTacToeTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/TicTacToeTest.java" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;import tictactoe.Main;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;import java.util.stream.Collectors;&#10;&#10;enum FieldState {&#10;    X, O, FREE;&#10;&#10;    static FieldState get(char symbol) {&#10;        switch (symbol) {&#10;            case 'X': return X;&#10;            case 'O': return O;&#10;            case ' ': return FREE;&#10;            default: return null;&#10;        }&#10;    }&#10;}&#10;&#10;class TicTacToeField {&#10;&#10;    final FieldState[][] field;&#10;&#10;    TicTacToeField(FieldState[][] field) {&#10;        this.field = new FieldState[3][3];&#10;        for (int row = 0; row &lt; 3; row++) {&#10;            for (int col = 0; col &lt; 3; col++) {&#10;                this.field[row][col] = field[row][col];&#10;            }&#10;        }&#10;    }&#10;&#10;    TicTacToeField(String str) {&#10;        field = new FieldState[3][3];&#10;        str = str.replace(&quot;\&quot;&quot;, &quot;&quot;);&#10;&#10;        for (int row = 0; row &lt; 3; row++) {&#10;            for (int col = 0; col &lt; 3; col++) {&#10;                field[row][col] =&#10;                    FieldState.get(str.charAt(((2 - row) * 3 + col)));&#10;            }&#10;        }&#10;    }&#10;&#10;    boolean equalTo(TicTacToeField other) {&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    return false;&#10;                }&#10;            }&#10;        }&#10;        return true;&#10;    }&#10;&#10;    boolean hasNextAs(TicTacToeField other) {&#10;        boolean improved = false;&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    if (field[i][j] == FieldState.FREE &amp;&amp; !improved) {&#10;                        improved = true;&#10;                    }&#10;                    else {&#10;                        return false;&#10;                    }&#10;                }&#10;            }&#10;        }&#10;        return improved;&#10;    }&#10;&#10;    boolean isCloseTo(TicTacToeField other) {&#10;        return equalTo(other)&#10;            || hasNextAs(other)&#10;            || other.hasNextAs(this);&#10;    }&#10;&#10;    static TicTacToeField parse(String fieldStr) {&#10;&#10;        try {&#10;            List&lt;String&gt; lines = fieldStr&#10;                .lines()&#10;                .map(String::strip)&#10;                .filter(e -&gt;&#10;                    e.startsWith(&quot;|&quot;)&#10;                        &amp;&amp; e.endsWith(&quot;|&quot;))&#10;                .collect(Collectors.toList());&#10;&#10;            for (String line : lines) {&#10;                for (char c : line.toCharArray()) {&#10;                    if (c != 'X'&#10;                        &amp;&amp; c != 'O'&#10;                        &amp;&amp; c != '|'&#10;                        &amp;&amp; c != ' ') {&#10;                        return null;&#10;                    }&#10;                }&#10;            }&#10;&#10;            FieldState[][] field = new FieldState[3][3];&#10;&#10;            int y = 2;&#10;            for (String line : lines) {&#10;                char[] cols = new char[] {&#10;                    line.charAt(2),&#10;                    line.charAt(4),&#10;                    line.charAt(6)&#10;                };&#10;&#10;                int x = 0;&#10;                for (char c : cols) {&#10;                    FieldState state = FieldState.get(c);&#10;                    if (state == null) {&#10;                        return null;&#10;                    }&#10;                    field[y][x] = state;&#10;                    x++;&#10;                }&#10;                y--;&#10;            }&#10;&#10;            return new TicTacToeField(field);&#10;        } catch (Exception ex) {&#10;            return null;&#10;        }&#10;    }&#10;&#10;&#10;    static List&lt;TicTacToeField&gt; parseAll(String output) {&#10;        List&lt;TicTacToeField&gt; fields = new ArrayList&lt;&gt;();&#10;&#10;        List&lt;String&gt; lines = output&#10;            .lines()&#10;            .map(String::strip)&#10;            .filter(e -&gt; e.length() &gt; 0)&#10;            .collect(Collectors.toList());&#10;&#10;        String candidateField = &quot;&quot;;&#10;        boolean insideField = false;&#10;        for (String line : lines) {&#10;            if (line.contains(&quot;----&quot;) &amp;&amp; !insideField) {&#10;                insideField = true;&#10;                candidateField = &quot;&quot;;&#10;            } else if (line.contains(&quot;----&quot;) &amp;&amp; insideField) {&#10;                TicTacToeField field = TicTacToeField.parse(candidateField);&#10;                if (field != null) {&#10;                    fields.add(field);&#10;                }&#10;                insideField = false;&#10;            }&#10;&#10;            if (insideField &amp;&amp; line.startsWith(&quot;|&quot;)) {&#10;                candidateField += line + &quot;\n&quot;;&#10;            }&#10;        }&#10;&#10;        return fields;&#10;    }&#10;&#10;}&#10;&#10;&#10;class Clue {&#10;    String input;&#10;    Clue(String input) {&#10;        this.input = input;&#10;    }&#10;}&#10;&#10;public class TicTacToeTest extends BaseStageTest&lt;Clue&gt; {&#10;    public TicTacToeTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    static String[] inputs = new String[] {&#10;        &quot;1 1&quot;, &quot;1 2&quot;, &quot;1 3&quot;,&#10;        &quot;2 1&quot;, &quot;2 2&quot;, &quot;2 3&quot;,&#10;        &quot;3 1&quot;, &quot;3 2&quot;, &quot;3 3&quot;&#10;    };&#10;&#10;    String iterateCells(String initial) {&#10;        int index = -1;&#10;        for (int i = 0; i &lt; inputs.length; i++) {&#10;            if (initial.equals(inputs[i])) {&#10;                index = i;&#10;                break;&#10;            }&#10;        }&#10;        if (index == -1) {&#10;            return &quot;&quot;;&#10;        }&#10;        String fullInput = &quot;&quot;;&#10;        for (int i = index; i &lt; index + 9; i++) {&#10;            fullInput += inputs[i % inputs.length] + &quot;\n&quot;;&#10;        }&#10;        return fullInput;&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Clue&gt;&gt; generate() {&#10;        return List.of(&#10;            new TestCase&lt;Clue&gt;()&#10;                .setInput(&quot;\&quot; XXOO OX \&quot;&quot;)&#10;                .setAttach(new Clue(&#10;                    &quot;\&quot; XXOO OX \&quot;&quot;)),&#10;&#10;            new TestCase&lt;Clue&gt;()&#10;                .setInput(&quot;\&quot;         \&quot;&quot;)&#10;                .setAttach(new Clue(&#10;                    &quot;\&quot;         \&quot;&quot;)),&#10;&#10;            new TestCase&lt;Clue&gt;()&#10;                .setInput(&quot;\&quot;X X O    \&quot;&quot;)&#10;                .setAttach(new Clue(&#10;                    &quot;\&quot;X X O    \&quot;&quot;))&#10;        );&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Clue clue) {&#10;&#10;        List&lt;TicTacToeField&gt; fields = TicTacToeField.parseAll(reply);&#10;&#10;        if (fields.size() != 2) {&#10;            return new CheckResult(false,&#10;                &quot;Output should contain 2 fields, found: &quot; + fields.size());&#10;        }&#10;&#10;        if (!reply.contains(&quot;Making move level \&quot;easy\&quot;&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;No \&quot;Making move level \&quot;easy\&quot;\&quot; line in output&quot;);&#10;        }&#10;&#10;        TicTacToeField curr = fields.get(0);&#10;        TicTacToeField next = fields.get(1);&#10;&#10;        TicTacToeField correctCurr = new TicTacToeField(clue.input);&#10;&#10;        if (!curr.equalTo(correctCurr)) {&#10;            return new CheckResult(false,&#10;                &quot;The first field is not equal to the input field&quot;);&#10;        }&#10;&#10;        if (curr.equalTo(next)) {&#10;            return new CheckResult(false,&#10;                &quot;The first field is equals to next, but should be different&quot;);&#10;        }&#10;&#10;        if (!curr.hasNextAs(next)) {&#10;            return new CheckResult(false,&#10;                &quot;The first field is correct, but the second is not&quot;);&#10;        }&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/tictactoe/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/tictactoe/Main.java" />
+                                <option name="text" value="package tictactoe;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1562944369000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Now it is time to make a working game. Keep in mind that you will write the other two levels of difficulty in the next steps. In this version of the program, the user will be playing X, and the easy level computer will be playing O.&lt;/p&gt;&#10;&#10;&lt;p&gt;You need to create a game loop. The game starts with empty cells and ends when someone wins or there is a draw. You need to output the final result after the end of the game.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;p&gt;The example below shows how your program should work.&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;---------&#10;|       |&#10;|       |&#10;|       |&#10;---------&#10;Enter the coordinates: 2 2&#10;---------&#10;|       |&#10;|   X   |&#10;|       |&#10;---------&#10;Making move level &quot;easy&quot;&#10;---------&#10;| O     |&#10;|   X   |&#10;|       |&#10;---------&#10;Enter the coordinates: 3 1&#10;---------&#10;| O     |&#10;|   X   |&#10;|     X |&#10;---------&#10;Making move level &quot;easy&quot;&#10;---------&#10;| O     |&#10;| O X   |&#10;|     X |&#10;---------&#10;Enter the coordinates: 1 1&#10;---------&#10;| O     |&#10;| O X   |&#10;| X   X |&#10;---------&#10;Making move level &quot;easy&quot;&#10;---------&#10;| O     |&#10;| O X O |&#10;| X   X |&#10;---------&#10;Enter the coordinates: 2 1&#10;---------&#10;| O     |&#10;| O X O |&#10;| X X X |&#10;---------&#10;X wins&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/48/stages/261/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5403" />
+                      <option name="index" value="7" />
+                      <option name="name" value="Create a game loop" />
+                      <option name="record" value="7" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/TicTacToeTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/TicTacToeTest.java" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;import tictactoe.Main;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;import java.util.stream.Collectors;&#10;&#10;enum FieldState {&#10;    X, O, FREE;&#10;&#10;    static FieldState get(char symbol) {&#10;        switch (symbol) {&#10;            case 'X': return X;&#10;            case 'O': return O;&#10;            case ' ': return FREE;&#10;            default: return null;&#10;        }&#10;    }&#10;}&#10;&#10;class TicTacToeField {&#10;&#10;    final FieldState[][] field;&#10;&#10;    TicTacToeField(FieldState[][] field) {&#10;        this.field = new FieldState[3][3];&#10;        for (int row = 0; row &lt; 3; row++) {&#10;            for (int col = 0; col &lt; 3; col++) {&#10;                this.field[row][col] = field[row][col];&#10;            }&#10;        }&#10;    }&#10;&#10;    TicTacToeField(String str) {&#10;        field = new FieldState[3][3];&#10;        str = str.replace(&quot;\&quot;&quot;, &quot;&quot;);&#10;&#10;        for (int row = 0; row &lt; 3; row++) {&#10;            for (int col = 0; col &lt; 3; col++) {&#10;                field[row][col] =&#10;                    FieldState.get(str.charAt(((2 - row) * 3 + col)));&#10;            }&#10;        }&#10;    }&#10;&#10;    boolean equalTo(TicTacToeField other) {&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    return false;&#10;                }&#10;            }&#10;        }&#10;        return true;&#10;    }&#10;&#10;    boolean hasNextAs(TicTacToeField other) {&#10;        boolean improved = false;&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    if (field[i][j] == FieldState.FREE &amp;&amp; !improved) {&#10;                        improved = true;&#10;                    }&#10;                    else {&#10;                        return false;&#10;                    }&#10;                }&#10;            }&#10;        }&#10;        return improved;&#10;    }&#10;&#10;    boolean isCloseTo(TicTacToeField other) {&#10;        return equalTo(other)&#10;            || hasNextAs(other)&#10;            || other.hasNextAs(this);&#10;    }&#10;&#10;    static TicTacToeField parse(String fieldStr) {&#10;&#10;        try {&#10;            List&lt;String&gt; lines = fieldStr&#10;                .lines()&#10;                .map(String::strip)&#10;                .filter(e -&gt;&#10;                    e.startsWith(&quot;|&quot;)&#10;                        &amp;&amp; e.endsWith(&quot;|&quot;))&#10;                .collect(Collectors.toList());&#10;&#10;            for (String line : lines) {&#10;                for (char c : line.toCharArray()) {&#10;                    if (c != 'X'&#10;                        &amp;&amp; c != 'O'&#10;                        &amp;&amp; c != '|'&#10;                        &amp;&amp; c != ' ') {&#10;                        return null;&#10;                    }&#10;                }&#10;            }&#10;&#10;            FieldState[][] field = new FieldState[3][3];&#10;&#10;            int y = 2;&#10;            for (String line : lines) {&#10;                char[] cols = new char[] {&#10;                    line.charAt(2),&#10;                    line.charAt(4),&#10;                    line.charAt(6)&#10;                };&#10;&#10;                int x = 0;&#10;                for (char c : cols) {&#10;                    FieldState state = FieldState.get(c);&#10;                    if (state == null) {&#10;                        return null;&#10;                    }&#10;                    field[y][x] = state;&#10;                    x++;&#10;                }&#10;                y--;&#10;            }&#10;&#10;            return new TicTacToeField(field);&#10;        } catch (Exception ex) {&#10;            return null;&#10;        }&#10;    }&#10;&#10;&#10;    static List&lt;TicTacToeField&gt; parseAll(String output) {&#10;        List&lt;TicTacToeField&gt; fields = new ArrayList&lt;&gt;();&#10;&#10;        List&lt;String&gt; lines = output&#10;            .lines()&#10;            .map(String::strip)&#10;            .filter(e -&gt; e.length() &gt; 0)&#10;            .collect(Collectors.toList());&#10;&#10;        String candidateField = &quot;&quot;;&#10;        boolean insideField = false;&#10;        for (String line : lines) {&#10;            if (line.contains(&quot;----&quot;) &amp;&amp; !insideField) {&#10;                insideField = true;&#10;                candidateField = &quot;&quot;;&#10;            } else if (line.contains(&quot;----&quot;) &amp;&amp; insideField) {&#10;                TicTacToeField field = TicTacToeField.parse(candidateField);&#10;                if (field != null) {&#10;                    fields.add(field);&#10;                }&#10;                insideField = false;&#10;            }&#10;&#10;            if (insideField &amp;&amp; line.startsWith(&quot;|&quot;)) {&#10;                candidateField += line + &quot;\n&quot;;&#10;            }&#10;        }&#10;&#10;        return fields;&#10;    }&#10;&#10;}&#10;&#10;&#10;class Clue {&#10;    int x, y;&#10;    Clue(int x, int y) {&#10;        this.x = x;&#10;        this.y = y;&#10;    }&#10;}&#10;&#10;public class TicTacToeTest extends BaseStageTest&lt;Clue&gt; {&#10;    public TicTacToeTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    static String[] inputs = new String[] {&#10;        &quot;1 1&quot;, &quot;1 2&quot;, &quot;1 3&quot;,&#10;        &quot;2 1&quot;, &quot;2 2&quot;, &quot;2 3&quot;,&#10;        &quot;3 1&quot;, &quot;3 2&quot;, &quot;3 3&quot;&#10;    };&#10;&#10;    String iterateCells(String initial) {&#10;        int index = -1;&#10;        for (int i = 0; i &lt; inputs.length; i++) {&#10;            if (initial.equals(inputs[i])) {&#10;                index = i;&#10;                break;&#10;            }&#10;        }&#10;        if (index == -1) {&#10;            return &quot;&quot;;&#10;        }&#10;        String fullInput = &quot;&quot;;&#10;        for (int i = index; i &lt; index + 9; i++) {&#10;            fullInput += inputs[i % inputs.length] + &quot;\n&quot;;&#10;        }&#10;        return fullInput;&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Clue&gt;&gt; generate() {&#10;&#10;        List&lt;TestCase&lt;Clue&gt;&gt; tests = new ArrayList&lt;&gt;();&#10;&#10;        int i = 0;&#10;        for (String input : inputs) {&#10;            String fullMoveInput = iterateCells(input);&#10;&#10;            String[] strNums = input.split(&quot; &quot;);&#10;            int x = Integer.parseInt(strNums[0]);&#10;            int y = Integer.parseInt(strNums[1]);&#10;&#10;            if (i % 2 == 1) {&#10;                // mix with incorrect data&#10;                fullMoveInput = &quot;4 &quot; + i + &quot;\n&quot; + fullMoveInput;&#10;            }&#10;&#10;            String fullGameInput = &quot;&quot;;&#10;            for (int j = 0; j &lt; 9; j++) {&#10;                fullGameInput += fullMoveInput;&#10;            }&#10;&#10;            tests.add(new TestCase&lt;Clue&gt;()&#10;                .setInput(fullGameInput)&#10;                .setAttach(new Clue(x, y)));&#10;&#10;            i++;&#10;        }&#10;&#10;        return tests;&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Clue clue) {&#10;&#10;        List&lt;TicTacToeField&gt; fields = TicTacToeField.parseAll(reply);&#10;&#10;        if (fields.size() == 0) {&#10;            return new CheckResult(false, &quot;No fields found&quot;);&#10;        }&#10;&#10;        for (int i = 1; i &lt; fields.size(); i++) {&#10;            TicTacToeField curr = fields.get(i - 1);&#10;            TicTacToeField next = fields.get(i);&#10;&#10;            if (!(curr.equalTo(next) || curr.hasNextAs(next))) {&#10;                return new CheckResult(false,&#10;                    &quot;For two fields following each &quot; +&#10;                        &quot;other one is not a continuation &quot; +&#10;                        &quot;of the other.&quot;);&#10;            }&#10;        }&#10;&#10;        if (!reply.contains(&quot;Making move level \&quot;easy\&quot;&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;No \&quot;Making move level \&quot;easy\&quot;\&quot; line in output&quot;);&#10;        }&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/tictactoe/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/tictactoe/Main.java" />
+                                <option name="text" value="package tictactoe;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1562944369000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;It is time to make some variations of the game possible. What if you want to play with a friend and not with AI? What if you get tired of playing the game and want to see a match between two AI? Finally, you need to be able to play either the first move or the second move playing against AI.&lt;/p&gt;&#10;&#10;&lt;p&gt;Write a menu loop, which can interpret two commands: &quot;start&quot; and &quot;exit&quot;.&lt;/p&gt;&#10;&#10;&lt;p&gt;The command &quot;start&quot; should take two parameters: who will play ‘X’ and who will play ‘O.’ Two parameters are possible for now: &quot;user&quot; to play as a human and &quot;easy&quot; to play as an easy level AI. In the next steps, you will add &quot;medium&quot; and &quot;hard&quot; parameters.&lt;/p&gt;&#10;&#10;&lt;p&gt;The command &quot;exit&quot; should simply terminate the program.&lt;/p&gt;&#10;&#10;&lt;p&gt;Do not forget to handle incorrect input!&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;p&gt;The example below shows how your program should work.&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code&gt;Input command: start&#10;Bad parameters!&#10;Input command: start easy&#10;Bad parameters!&#10;Input command: start easy easy&#10;---------&#10;|       |&#10;|       |&#10;|       |&#10;---------&#10;Making move level &quot;easy&quot;&#10;---------&#10;|       |&#10;|     X |&#10;|       |&#10;---------&#10;Making move level &quot;easy&quot;&#10;---------&#10;|       |&#10;| O   X |&#10;|       |&#10;---------&#10;Making move level &quot;easy&quot;&#10;---------&#10;|       |&#10;| O   X |&#10;|     X |&#10;---------&#10;Making move level &quot;easy&quot;&#10;---------&#10;|       |&#10;| O   X |&#10;|   O X |&#10;---------&#10;Making move level &quot;easy&quot;&#10;---------&#10;|       |&#10;| O X X |&#10;|   O X |&#10;---------&#10;Making move level &quot;easy&quot;&#10;---------&#10;|     O |&#10;| O X X |&#10;|   O X |&#10;---------&#10;Making move level &quot;easy&quot;&#10;---------&#10;| X   O |&#10;| O X X |&#10;|   O X |&#10;---------&#10;X wins&#10;&#10;Input command: start easy user&#10;---------&#10;|       |&#10;|       |&#10;|       |&#10;---------&#10;Making move level &quot;easy&quot;&#10;---------&#10;|       |&#10;|       |&#10;|     X |&#10;---------&#10;Enter the coordinates: 2 2&#10;---------&#10;|       |&#10;|   O   |&#10;|     X |&#10;---------&#10;Making move level &quot;easy&quot;&#10;---------&#10;|   X   |&#10;|   O   |&#10;|     X |&#10;---------&#10;Enter the coordinates: 1 1&#10;---------&#10;|   X   |&#10;|   O   |&#10;| O   X |&#10;---------&#10;Making move level &quot;easy&quot;&#10;---------&#10;|   X X |&#10;|   O   |&#10;| O   X |&#10;---------&#10;Enter the coordinates: 3 2&#10;---------&#10;|   X X |&#10;|   O O |&#10;| O   X |&#10;---------&#10;Making move level &quot;easy&quot;&#10;---------&#10;| X X X |&#10;|   O O |&#10;| O   X |&#10;---------&#10;X wins&#10;&#10;Input command: start user user&#10;---------&#10;|       |&#10;|       |&#10;|       |&#10;---------&#10;Enter the coordinates: 1 1&#10;---------&#10;|       |&#10;|       |&#10;| X     |&#10;---------&#10;Enter the coordinates: 2 2&#10;---------&#10;|       |&#10;|   O   |&#10;| X     |&#10;---------&#10;Enter the coordinates: 1 2&#10;---------&#10;|       |&#10;| X O   |&#10;| X     |&#10;---------&#10;Enter the coordinates: 2 1&#10;---------&#10;|       |&#10;| X O   |&#10;| X O   |&#10;---------&#10;Enter the coordinates: 1 3&#10;---------&#10;| X     |&#10;| X O   |&#10;| X O   |&#10;---------&#10;X wins&#10;&#10;Input command: exit&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/48/stages/262/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5404" />
+                      <option name="index" value="8" />
+                      <option name="name" value="Create a start menu" />
+                      <option name="record" value="8" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/TicTacToeTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/TicTacToeTest.java" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;import tictactoe.Main;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;import java.util.stream.Collectors;&#10;&#10;enum FieldState {&#10;    X, O, FREE;&#10;&#10;    static FieldState get(char symbol) {&#10;        switch (symbol) {&#10;            case 'X': return X;&#10;            case 'O': return O;&#10;            case ' ': return FREE;&#10;            default: return null;&#10;        }&#10;    }&#10;}&#10;&#10;class TicTacToeField {&#10;&#10;    final FieldState[][] field;&#10;&#10;    TicTacToeField(FieldState[][] field) {&#10;        this.field = new FieldState[3][3];&#10;        for (int row = 0; row &lt; 3; row++) {&#10;            for (int col = 0; col &lt; 3; col++) {&#10;                this.field[row][col] = field[row][col];&#10;            }&#10;        }&#10;    }&#10;&#10;    TicTacToeField(String str) {&#10;        field = new FieldState[3][3];&#10;        str = str.replace(&quot;\&quot;&quot;, &quot;&quot;);&#10;&#10;        for (int row = 0; row &lt; 3; row++) {&#10;            for (int col = 0; col &lt; 3; col++) {&#10;                field[row][col] =&#10;                    FieldState.get(str.charAt(((2 - row) * 3 + col)));&#10;            }&#10;        }&#10;    }&#10;&#10;    boolean equalTo(TicTacToeField other) {&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    return false;&#10;                }&#10;            }&#10;        }&#10;        return true;&#10;    }&#10;&#10;    boolean hasNextAs(TicTacToeField other) {&#10;        boolean improved = false;&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    if (field[i][j] == FieldState.FREE &amp;&amp; !improved) {&#10;                        improved = true;&#10;                    }&#10;                    else {&#10;                        return false;&#10;                    }&#10;                }&#10;            }&#10;        }&#10;        return improved;&#10;    }&#10;&#10;    boolean isCloseTo(TicTacToeField other) {&#10;        return equalTo(other)&#10;            || hasNextAs(other)&#10;            || other.hasNextAs(this);&#10;    }&#10;&#10;    static TicTacToeField parse(String fieldStr) {&#10;&#10;        try {&#10;            List&lt;String&gt; lines = fieldStr&#10;                .lines()&#10;                .map(String::strip)&#10;                .filter(e -&gt;&#10;                    e.startsWith(&quot;|&quot;)&#10;                        &amp;&amp; e.endsWith(&quot;|&quot;))&#10;                .collect(Collectors.toList());&#10;&#10;            for (String line : lines) {&#10;                for (char c : line.toCharArray()) {&#10;                    if (c != 'X'&#10;                        &amp;&amp; c != 'O'&#10;                        &amp;&amp; c != '|'&#10;                        &amp;&amp; c != ' ') {&#10;                        return null;&#10;                    }&#10;                }&#10;            }&#10;&#10;            FieldState[][] field = new FieldState[3][3];&#10;&#10;            int y = 2;&#10;            for (String line : lines) {&#10;                char[] cols = new char[] {&#10;                    line.charAt(2),&#10;                    line.charAt(4),&#10;                    line.charAt(6)&#10;                };&#10;&#10;                int x = 0;&#10;                for (char c : cols) {&#10;                    FieldState state = FieldState.get(c);&#10;                    if (state == null) {&#10;                        return null;&#10;                    }&#10;                    field[y][x] = state;&#10;                    x++;&#10;                }&#10;                y--;&#10;            }&#10;&#10;            return new TicTacToeField(field);&#10;        } catch (Exception ex) {&#10;            return null;&#10;        }&#10;    }&#10;&#10;&#10;    static List&lt;TicTacToeField&gt; parseAll(String output) {&#10;        List&lt;TicTacToeField&gt; fields = new ArrayList&lt;&gt;();&#10;&#10;        List&lt;String&gt; lines = output&#10;            .lines()&#10;            .map(String::strip)&#10;            .filter(e -&gt; e.length() &gt; 0)&#10;            .collect(Collectors.toList());&#10;&#10;        String candidateField = &quot;&quot;;&#10;        boolean insideField = false;&#10;        for (String line : lines) {&#10;            if (line.contains(&quot;----&quot;) &amp;&amp; !insideField) {&#10;                insideField = true;&#10;                candidateField = &quot;&quot;;&#10;            } else if (line.contains(&quot;----&quot;) &amp;&amp; insideField) {&#10;                TicTacToeField field = TicTacToeField.parse(candidateField);&#10;                if (field != null) {&#10;                    fields.add(field);&#10;                }&#10;                insideField = false;&#10;            }&#10;&#10;            if (insideField &amp;&amp; line.startsWith(&quot;|&quot;)) {&#10;                candidateField += line + &quot;\n&quot;;&#10;            }&#10;        }&#10;&#10;        return fields;&#10;    }&#10;&#10;}&#10;&#10;&#10;class Clue {&#10;    int x, y;&#10;    Clue(int x, int y) {&#10;        this.x = x;&#10;        this.y = y;&#10;    }&#10;}&#10;&#10;public class TicTacToeTest extends BaseStageTest&lt;Clue&gt; {&#10;    public TicTacToeTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    static String[] inputs = new String[] {&#10;        &quot;1 1&quot;, &quot;1 2&quot;, &quot;1 3&quot;,&#10;        &quot;2 1&quot;, &quot;2 2&quot;, &quot;2 3&quot;,&#10;        &quot;3 1&quot;, &quot;3 2&quot;, &quot;3 3&quot;&#10;    };&#10;&#10;    String iterateCells(String initial) {&#10;        int index = -1;&#10;        for (int i = 0; i &lt; inputs.length; i++) {&#10;            if (initial.equals(inputs[i])) {&#10;                index = i;&#10;                break;&#10;            }&#10;        }&#10;        if (index == -1) {&#10;            return &quot;&quot;;&#10;        }&#10;        String fullInput = &quot;&quot;;&#10;        for (int i = index; i &lt; index + 9; i++) {&#10;            fullInput += inputs[i % inputs.length] + &quot;\n&quot;;&#10;        }&#10;        return fullInput;&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Clue&gt;&gt; generate() {&#10;&#10;        List&lt;TestCase&lt;Clue&gt;&gt; tests = new ArrayList&lt;&gt;();&#10;&#10;        int i = 0;&#10;        for (String input : inputs) {&#10;            String fullMoveInput = iterateCells(input);&#10;&#10;            String[] strNums = input.split(&quot; &quot;);&#10;            int x = Integer.parseInt(strNums[0]);&#10;            int y = Integer.parseInt(strNums[1]);&#10;&#10;            if (i % 2 == 1) {&#10;                // mix with incorrect data&#10;                fullMoveInput = &quot;4 &quot; + i + &quot;\n&quot; + fullMoveInput;&#10;            }&#10;&#10;            String fullGameInput = &quot;&quot;;&#10;            for (int j = 0; j &lt; 9; j++) {&#10;                fullGameInput += fullMoveInput;&#10;            }&#10;&#10;            String initial;&#10;            if (i % 2 == 0) {&#10;                initial = &quot;start user easy\n&quot;;&#10;            } else {&#10;                initial = &quot;start easy user\n&quot;;&#10;            }&#10;&#10;            fullGameInput = initial + fullGameInput + &quot;exit&quot;;&#10;&#10;            tests.add(new TestCase&lt;Clue&gt;()&#10;                .setInput(fullGameInput));&#10;&#10;            i++;&#10;        }&#10;&#10;        tests.add(new TestCase&lt;Clue&gt;()&#10;            .setInput(&quot;start easy easy\nexit&quot;));&#10;&#10;        tests.add(new TestCase&lt;Clue&gt;()&#10;            .setInput(&quot;start user user\n&quot; +&#10;                &quot;1 1\n&quot; +&#10;                &quot;2 2\n&quot; +&#10;                &quot;1 2\n&quot; +&#10;                &quot;2 1\n&quot; +&#10;                &quot;1 3\n&quot; +&#10;                &quot;exit&quot;));&#10;&#10;        return tests;&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Clue clue) {&#10;&#10;        List&lt;TicTacToeField&gt; fields = TicTacToeField.parseAll(reply);&#10;&#10;        if (fields.size() == 0) {&#10;            return new CheckResult(false, &quot;No fields found&quot;);&#10;        }&#10;&#10;        for (int i = 1; i &lt; fields.size(); i++) {&#10;            TicTacToeField curr = fields.get(i - 1);&#10;            TicTacToeField next = fields.get(i);&#10;&#10;            if (!(curr.equalTo(next) || curr.hasNextAs(next))) {&#10;                return new CheckResult(false,&#10;                    &quot;For two fields following each &quot; +&#10;                        &quot;other one is not a continuation &quot; +&#10;                        &quot;of the other.&quot;);&#10;            }&#10;        }&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/tictactoe/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/tictactoe/Main.java" />
+                                <option name="text" value="package tictactoe;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1562944369000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Let's write a &quot;medium&quot; level difficulty. Compared to randomly picking a cell to take a move, this level is considerably smarter.&lt;br&gt;&#10;  &lt;br&gt;&#10;  The &quot;medium&quot; level difficulty makes a move using the following process:&lt;/p&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;If it can win in one move (if it has two in a row), it places a third to get three in a row and win.&lt;/li&gt;&#10;  &lt;li&gt;If the opponent can win in one move, it plays the third itself to block the opponent to win.&lt;/li&gt;&#10;  &lt;li&gt;Otherwise, it makes a random move.&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;p&gt;Despite the randomness of the third rule, this level is a lot harder to beat. This level stops all simple attempts to beat it due to the second rule, and always wins when it can due to the first rule.&lt;/p&gt;&#10;&#10;&lt;p&gt;You also should add &quot;medium&quot; parameter to be able to play against this level.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;p&gt;The example below shows how your program should work.&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Input command: start user medium&#10;---------&#10;|       |&#10;|       |&#10;|       |&#10;---------&#10;Enter the coordinates: 2 2&#10;---------&#10;|       |&#10;|   X   |&#10;|       |&#10;---------&#10;Making move level &quot;medium&quot;&#10;---------&#10;|       |&#10;|   X   |&#10;| O     |&#10;---------&#10;Enter the coordinates: 1 3&#10;---------&#10;| X     |&#10;|   X   |&#10;| O     |&#10;---------&#10;Making move level &quot;medium&quot;&#10;---------&#10;| X     |&#10;|   X   |&#10;| O   O |&#10;---------&#10;Enter the coordinates: 2 1&#10;---------&#10;| X     |&#10;|   X   |&#10;| O X O |&#10;---------&#10;Making move level &quot;medium&quot;&#10;---------&#10;| X O   |&#10;|   X   |&#10;| O X O |&#10;---------&#10;Enter the coordinates: 1 2&#10;---------&#10;| X O   |&#10;| X X   |&#10;| O X O |&#10;---------&#10;Making move level &quot;medium&quot;&#10;---------&#10;| X O   |&#10;| X X O |&#10;| O X O |&#10;---------&#10;Enter the coordinates: 3 3&#10;---------&#10;| X O X |&#10;| X X O |&#10;| O X O |&#10;---------&#10;Draw&#10;&#10;Input command: start medium user&#10;---------&#10;|       |&#10;|       |&#10;|       |&#10;---------&#10;Making move level &quot;medium&quot;&#10;---------&#10;|       |&#10;|       |&#10;|   X   |&#10;---------&#10;Enter the coordinates: 2 2&#10;---------&#10;|       |&#10;|   O   |&#10;|   X   |&#10;---------&#10;Making move level &quot;medium&quot;&#10;---------&#10;|       |&#10;|   O   |&#10;| X X   |&#10;---------&#10;Enter the coordinates: 3 1&#10;---------&#10;|       |&#10;|   O   |&#10;| X X O |&#10;---------&#10;Making move level &quot;medium&quot;&#10;---------&#10;| X     |&#10;|   O   |&#10;| X X O |&#10;---------&#10;Enter the coordinates: 1 2&#10;---------&#10;| X     |&#10;| O O   |&#10;| X X O |&#10;---------&#10;Making move level &quot;medium&quot;&#10;---------&#10;| X     |&#10;| O O X |&#10;| X X O |&#10;---------&#10;Enter the coordinates: 3 3&#10;---------&#10;| X   O |&#10;| O O X |&#10;| X X O |&#10;---------&#10;Making move level &quot;medium&quot;&#10;---------&#10;| X X O |&#10;| O O X |&#10;| X X O |&#10;---------&#10;Draw&#10;&#10;Input command: exit&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/48/stages/263/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5405" />
+                      <option name="index" value="9" />
+                      <option name="name" value="Make a &quot;medium&quot; difficulty level" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/TicTacToeTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/TicTacToeTest.java" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;import tictactoe.Main;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;import java.util.stream.Collectors;&#10;&#10;enum FieldState {&#10;    X, O, FREE;&#10;&#10;    static FieldState get(char symbol) {&#10;        switch (symbol) {&#10;            case 'X': return X;&#10;            case 'O': return O;&#10;            case ' ': return FREE;&#10;            default: return null;&#10;        }&#10;    }&#10;}&#10;&#10;class TicTacToeField {&#10;&#10;    final FieldState[][] field;&#10;&#10;    TicTacToeField(FieldState[][] field) {&#10;        this.field = field;&#10;    }&#10;&#10;    boolean equalTo(TicTacToeField other) {&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    return false;&#10;                }&#10;            }&#10;        }&#10;        return true;&#10;    }&#10;&#10;    boolean hasNextAs(TicTacToeField other) {&#10;        boolean improved = false;&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    if (field[i][j] == FieldState.FREE &amp;&amp; !improved) {&#10;                        improved = true;&#10;                    }&#10;                    else {&#10;                        return false;&#10;                    }&#10;                }&#10;            }&#10;        }&#10;        return improved;&#10;    }&#10;&#10;    boolean isCloseTo(TicTacToeField other) {&#10;        return equalTo(other)&#10;            || hasNextAs(other)&#10;            || other.hasNextAs(this);&#10;    }&#10;&#10;    static TicTacToeField parse(String fieldStr) {&#10;&#10;        try {&#10;            List&lt;String&gt; lines = fieldStr&#10;                .lines()&#10;                .map(String::strip)&#10;                .filter(e -&gt;&#10;                    e.startsWith(&quot;|&quot;)&#10;                        &amp;&amp; e.endsWith(&quot;|&quot;))&#10;                .collect(Collectors.toList());&#10;&#10;            for (String line : lines) {&#10;                for (char c : line.toCharArray()) {&#10;                    if (c != 'X'&#10;                        &amp;&amp; c != 'O'&#10;                        &amp;&amp; c != '|'&#10;                        &amp;&amp; c != ' ') {&#10;                        return null;&#10;                    }&#10;                }&#10;            }&#10;&#10;            FieldState[][] field = new FieldState[3][3];&#10;&#10;            int y = 2;&#10;            for (String line : lines) {&#10;                char[] cols = new char[] {&#10;                    line.charAt(2),&#10;                    line.charAt(4),&#10;                    line.charAt(6)&#10;                };&#10;&#10;                int x = 0;&#10;                for (char c : cols) {&#10;                    FieldState state = FieldState.get(c);&#10;                    if (state == null) {&#10;                        return null;&#10;                    }&#10;                    field[y][x] = state;&#10;                    x++;&#10;                }&#10;                y--;&#10;            }&#10;&#10;            return new TicTacToeField(field);&#10;        } catch (Exception ex) {&#10;            return null;&#10;        }&#10;    }&#10;&#10;&#10;    static List&lt;TicTacToeField&gt; parseAll(String output) {&#10;        List&lt;TicTacToeField&gt; fields = new ArrayList&lt;&gt;();&#10;&#10;        List&lt;String&gt; lines = output&#10;            .lines()&#10;            .map(String::strip)&#10;            .filter(e -&gt; e.length() &gt; 0)&#10;            .collect(Collectors.toList());&#10;&#10;        String candidateField = &quot;&quot;;&#10;        boolean insideField = false;&#10;        for (String line : lines) {&#10;            if (line.contains(&quot;----&quot;) &amp;&amp; !insideField) {&#10;                insideField = true;&#10;                candidateField = &quot;&quot;;&#10;            } else if (line.contains(&quot;----&quot;) &amp;&amp; insideField) {&#10;                TicTacToeField field = TicTacToeField.parse(candidateField);&#10;                if (field != null) {&#10;                    fields.add(field);&#10;                }&#10;                insideField = false;&#10;            }&#10;&#10;            if (insideField &amp;&amp; line.startsWith(&quot;|&quot;)) {&#10;                candidateField += line + &quot;\n&quot;;&#10;            }&#10;        }&#10;&#10;        return fields;&#10;    }&#10;&#10;}&#10;&#10;&#10;class Clue {&#10;    int x, y;&#10;    Clue(int x, int y) {&#10;        this.x = x;&#10;        this.y = y;&#10;    }&#10;}&#10;&#10;public class TicTacToeTest extends BaseStageTest&lt;Clue&gt; {&#10;    public TicTacToeTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    static String[] inputs = new String[] {&#10;        &quot;1 1&quot;, &quot;1 2&quot;, &quot;1 3&quot;,&#10;        &quot;2 1&quot;, &quot;2 2&quot;, &quot;2 3&quot;,&#10;        &quot;3 1&quot;, &quot;3 2&quot;, &quot;3 3&quot;&#10;    };&#10;&#10;    String iterateCells(String initial) {&#10;        int index = -1;&#10;        for (int i = 0; i &lt; inputs.length; i++) {&#10;            if (initial.equals(inputs[i])) {&#10;                index = i;&#10;                break;&#10;            }&#10;        }&#10;        if (index == -1) {&#10;            return &quot;&quot;;&#10;        }&#10;        String fullInput = &quot;&quot;;&#10;        for (int i = index; i &lt; index + 9; i++) {&#10;            fullInput += inputs[i % inputs.length] + &quot;\n&quot;;&#10;        }&#10;        return fullInput;&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Clue&gt;&gt; generate() {&#10;&#10;        List&lt;TestCase&lt;Clue&gt;&gt; tests = new ArrayList&lt;&gt;();&#10;&#10;        int i = 0;&#10;        for (String input : inputs) {&#10;            String fullMoveInput = iterateCells(input);&#10;&#10;            String[] strNums = input.split(&quot; &quot;);&#10;            int x = Integer.parseInt(strNums[0]);&#10;            int y = Integer.parseInt(strNums[1]);&#10;&#10;            if (i % 2 == 1) {&#10;                // mix with incorrect data&#10;                fullMoveInput = &quot;4 &quot; + i + &quot;\n&quot; + fullMoveInput;&#10;            }&#10;&#10;            String fullGameInput = &quot;&quot;;&#10;            for (int j = 0; j &lt; 9; j++) {&#10;                fullGameInput += fullMoveInput;&#10;            }&#10;&#10;            String initial;&#10;&#10;            switch (i % 4) {&#10;                case 0: initial = &quot;start user easy\n&quot;; break;&#10;                case 1: initial = &quot;start easy user\n&quot;; break;&#10;                case 2: initial = &quot;start user medium\n&quot;; break;&#10;                case 3: initial = &quot;start medium user\n&quot;; break;&#10;                default: continue;&#10;            }&#10;&#10;            fullGameInput = initial + fullGameInput + &quot;exit&quot;;&#10;&#10;            tests.add(new TestCase&lt;Clue&gt;()&#10;                .setInput(fullGameInput));&#10;&#10;            i++;&#10;        }&#10;&#10;        tests.add(new TestCase&lt;Clue&gt;()&#10;            .setInput(&quot;start easy easy\nexit&quot;));&#10;&#10;        tests.add(new TestCase&lt;Clue&gt;()&#10;            .setInput(&quot;start medium medium\nexit&quot;));&#10;&#10;        tests.add(new TestCase&lt;Clue&gt;()&#10;            .setInput(&quot;start medium easy\nexit&quot;));&#10;&#10;        tests.add(new TestCase&lt;Clue&gt;()&#10;            .setInput(&quot;start easy medium\nexit&quot;));&#10;&#10;        tests.add(new TestCase&lt;Clue&gt;()&#10;            .setInput(&quot;start user user\n&quot; +&#10;                &quot;1 1\n&quot; +&#10;                &quot;2 2\n&quot; +&#10;                &quot;1 2\n&quot; +&#10;                &quot;2 1\n&quot; +&#10;                &quot;1 3\n&quot; +&#10;                &quot;exit&quot;));&#10;&#10;        return tests;&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Clue clue) {&#10;&#10;        List&lt;TicTacToeField&gt; fields = TicTacToeField.parseAll(reply);&#10;&#10;        if (fields.size() == 0) {&#10;            return new CheckResult(false, &quot;No fields found&quot;);&#10;        }&#10;&#10;        for (int i = 1; i &lt; fields.size(); i++) {&#10;            TicTacToeField curr = fields.get(i - 1);&#10;            TicTacToeField next = fields.get(i);&#10;&#10;            if (!(curr.equalTo(next) || curr.hasNextAs(next))) {&#10;                return new CheckResult(false,&#10;                    &quot;For two fields following each &quot; +&#10;                        &quot;other one is not a continuation &quot; +&#10;                        &quot;of the other.&quot;);&#10;            }&#10;        }&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/tictactoe/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/tictactoe/Main.java" />
+                                <option name="text" value="package tictactoe;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1562944369000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Let's write the &quot;hard&quot; level difficulty.&lt;/p&gt;&#10;&#10;&lt;p&gt;Compared to the &quot;medium&quot; level difficulty, this level not just go one move ahead to see an immediate win or prevent an immediate loss. This level can see two moves ahead, three moves ahead and so on. Basically, it can see all possible outcomes till the end of the game and choose the best of them considering his opponent also would play perfectly. So, it doesn't rely on the blunders of the opponent, it plays perfectly regardless of the opponent's skill.&lt;/p&gt;&#10;&#10;&lt;p&gt;The algorithm that implements this is called Minimax. This is the brute force algorithm that maximizes the value of the own position and minimizes the value of the opponent's position. It's not only an algorithm for Tic-Tac-Toe, but for every game with two players with alternate move order, for example, chess. You need to implement it as the &quot;hard&quot; difficulty level. &lt;a href=&quot;https://medium.freecodecamp.org/how-to-make-your-tic-tac-toe-game-unbeatable-by-using-the-minimax-algorithm-9d690bad4b37&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;This&lt;/a&gt; link will help to understand details.&lt;/p&gt;&#10;&#10;&lt;p&gt;You also should add &quot;hard&quot; parameter to be able to play against this level.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;p&gt;The example below shows how your program should work.&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Input command: start hard user&#10;Making move level &quot;hard&quot;&#10;---------&#10;|       |&#10;| X     |&#10;|       |&#10;---------&#10;Enter the coordinates: 2 2&#10;---------&#10;|       |&#10;| X O   |&#10;|       |&#10;---------&#10;Making move level &quot;hard&quot;&#10;---------&#10;|   X   |&#10;| X O   |&#10;|       |&#10;---------&#10;Enter the coordinates: 2 1&#10;---------&#10;|   X   |&#10;| X O   |&#10;|   O   |&#10;---------&#10;Making move level &quot;hard&quot;&#10;---------&#10;| X X   |&#10;| X O   |&#10;|   O   |&#10;---------&#10;Enter the coordinates: 1 1&#10;---------&#10;| X X   |&#10;| X O   |&#10;| O O   |&#10;---------&#10;Making move level &quot;hard&quot;&#10;---------&#10;| X X X |&#10;| X O   |&#10;| O O   |&#10;---------&#10;X wins&#10;&#10;Input command: exit&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/48/stages/264/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5406" />
+                      <option name="index" value="10" />
+                      <option name="name" value="Make a &quot;hard&quot; difficulty level" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/TicTacToeTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/TicTacToeTest.java" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;import tictactoe.Main;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;import java.util.stream.Collectors;&#10;&#10;enum FieldState {&#10;    X, O, FREE;&#10;&#10;    static FieldState get(char symbol) {&#10;        switch (symbol) {&#10;            case 'X': return X;&#10;            case 'O': return O;&#10;            case ' ': return FREE;&#10;            default: return null;&#10;        }&#10;    }&#10;}&#10;&#10;class TicTacToeField {&#10;&#10;    final FieldState[][] field;&#10;&#10;    TicTacToeField(FieldState[][] field) {&#10;        this.field = new FieldState[3][3];&#10;        for (int row = 0; row &lt; 3; row++) {&#10;            for (int col = 0; col &lt; 3; col++) {&#10;                this.field[row][col] = field[row][col];&#10;            }&#10;        }&#10;    }&#10;&#10;    TicTacToeField(String str) {&#10;        field = new FieldState[3][3];&#10;&#10;        for (int row = 0; row &lt; 3; row++) {&#10;            for (int col = 0; col &lt; 3; col++) {&#10;                field[row][col] =&#10;                    FieldState.get(str.charAt(((2 - row) * 3 + col)));&#10;            }&#10;        }&#10;    }&#10;&#10;    boolean equalTo(TicTacToeField other) {&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    return false;&#10;                }&#10;            }&#10;        }&#10;        return true;&#10;    }&#10;&#10;    boolean hasNextAs(TicTacToeField other) {&#10;        boolean improved = false;&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            for (int j = 0; j &lt; 3; j++) {&#10;                if (field[i][j] != other.field[i][j]) {&#10;                    if (field[i][j] == FieldState.FREE &amp;&amp; !improved) {&#10;                        improved = true;&#10;                    }&#10;                    else {&#10;                        return false;&#10;                    }&#10;                }&#10;            }&#10;        }&#10;        return improved;&#10;    }&#10;&#10;    boolean isCloseTo(TicTacToeField other) {&#10;        return equalTo(other)&#10;            || hasNextAs(other)&#10;            || other.hasNextAs(this);&#10;    }&#10;&#10;    static TicTacToeField parse(String fieldStr) {&#10;&#10;        try {&#10;            List&lt;String&gt; lines = fieldStr&#10;                .lines()&#10;                .map(String::strip)&#10;                .filter(e -&gt;&#10;                    e.startsWith(&quot;|&quot;)&#10;                        &amp;&amp; e.endsWith(&quot;|&quot;))&#10;                .collect(Collectors.toList());&#10;&#10;            for (String line : lines) {&#10;                for (char c : line.toCharArray()) {&#10;                    if (c != 'X'&#10;                        &amp;&amp; c != 'O'&#10;                        &amp;&amp; c != '|'&#10;                        &amp;&amp; c != ' ') {&#10;                        return null;&#10;                    }&#10;                }&#10;            }&#10;&#10;            FieldState[][] field = new FieldState[3][3];&#10;&#10;            int y = 2;&#10;            for (String line : lines) {&#10;                char[] cols = new char[] {&#10;                    line.charAt(2),&#10;                    line.charAt(4),&#10;                    line.charAt(6)&#10;                };&#10;&#10;                int x = 0;&#10;                for (char c : cols) {&#10;                    FieldState state = FieldState.get(c);&#10;                    if (state == null) {&#10;                        return null;&#10;                    }&#10;                    field[y][x] = state;&#10;                    x++;&#10;                }&#10;                y--;&#10;            }&#10;&#10;            return new TicTacToeField(field);&#10;        } catch (Exception ex) {&#10;            return null;&#10;        }&#10;    }&#10;&#10;    static List&lt;TicTacToeField&gt; parseAll(String output) {&#10;        List&lt;TicTacToeField&gt; fields = new ArrayList&lt;&gt;();&#10;&#10;        List&lt;String&gt; lines = output&#10;            .lines()&#10;            .map(String::strip)&#10;            .filter(e -&gt; e.length() &gt; 0)&#10;            .collect(Collectors.toList());&#10;&#10;        String candidateField = &quot;&quot;;&#10;        boolean insideField = false;&#10;        for (String line : lines) {&#10;            if (line.contains(&quot;----&quot;) &amp;&amp; !insideField) {&#10;                insideField = true;&#10;                candidateField = &quot;&quot;;&#10;            } else if (line.contains(&quot;----&quot;) &amp;&amp; insideField) {&#10;                TicTacToeField field = TicTacToeField.parse(candidateField);&#10;                if (field != null) {&#10;                    fields.add(field);&#10;                }&#10;                insideField = false;&#10;            }&#10;&#10;            if (insideField &amp;&amp; line.startsWith(&quot;|&quot;)) {&#10;                candidateField += line + &quot;\n&quot;;&#10;            }&#10;        }&#10;&#10;        return fields;&#10;    }&#10;&#10;}&#10;&#10;&#10;class Clue {&#10;    int x, y;&#10;    Clue(int x, int y) {&#10;        this.x = x;&#10;        this.y = y;&#10;    }&#10;}&#10;&#10;public class TicTacToeTest extends BaseStageTest&lt;Clue&gt; {&#10;    public TicTacToeTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    static String[] inputs = new String[] {&#10;        &quot;1 1&quot;, &quot;1 2&quot;, &quot;1 3&quot;,&#10;        &quot;2 1&quot;, &quot;2 2&quot;, &quot;2 3&quot;,&#10;        &quot;3 1&quot;, &quot;3 2&quot;, &quot;3 3&quot;&#10;    };&#10;&#10;    String iterateCells(String initial) {&#10;        int index = -1;&#10;        for (int i = 0; i &lt; inputs.length; i++) {&#10;            if (initial.equals(inputs[i])) {&#10;                index = i;&#10;                break;&#10;            }&#10;        }&#10;        if (index == -1) {&#10;            return &quot;&quot;;&#10;        }&#10;        String fullInput = &quot;&quot;;&#10;        for (int i = index; i &lt; index + 9; i++) {&#10;            fullInput += inputs[i % inputs.length] + &quot;\n&quot;;&#10;        }&#10;        return fullInput;&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Clue&gt;&gt; generate() {&#10;&#10;        List&lt;TestCase&lt;Clue&gt;&gt; tests = new ArrayList&lt;&gt;();&#10;&#10;        int i = 0;&#10;        for (String input : inputs) {&#10;            String fullMoveInput = iterateCells(input);&#10;&#10;            String[] strNums = input.split(&quot; &quot;);&#10;            int x = Integer.parseInt(strNums[0]);&#10;            int y = Integer.parseInt(strNums[1]);&#10;&#10;            if (i % 2 == 1) {&#10;                // mix with incorrect data&#10;                fullMoveInput = &quot;4 &quot; + i + &quot;\n&quot; + fullMoveInput;&#10;            }&#10;&#10;            String fullGameInput = &quot;&quot;;&#10;            for (int j = 0; j &lt; 9; j++) {&#10;                fullGameInput += fullMoveInput;&#10;            }&#10;&#10;            String initial;&#10;&#10;            switch (i % 6) {&#10;                case 0: initial = &quot;start user easy\n&quot;; break;&#10;                case 1: initial = &quot;start easy user\n&quot;; break;&#10;                case 2: initial = &quot;start user medium\n&quot;; break;&#10;                case 3: initial = &quot;start medium user\n&quot;; break;&#10;                case 4: initial = &quot;start user hard\n&quot;; break;&#10;                case 5: initial = &quot;start hard user\n&quot;; break;&#10;                default: continue;&#10;            }&#10;&#10;            fullGameInput = initial + fullGameInput + &quot;exit&quot;;&#10;&#10;            tests.add(new TestCase&lt;Clue&gt;()&#10;                .setInput(fullGameInput));&#10;&#10;            i++;&#10;        }&#10;&#10;        tests.add(new TestCase&lt;Clue&gt;()&#10;            .setInput(&quot;start easy easy\nexit&quot;));&#10;&#10;        tests.add(new TestCase&lt;Clue&gt;()&#10;            .setInput(&quot;start medium medium\nexit&quot;));&#10;&#10;        tests.add(new TestCase&lt;Clue&gt;()&#10;            .setInput(&quot;start hard hard\nexit&quot;));&#10;&#10;&#10;        tests.add(new TestCase&lt;Clue&gt;()&#10;            .setInput(&quot;start medium easy\nexit&quot;));&#10;&#10;        tests.add(new TestCase&lt;Clue&gt;()&#10;            .setInput(&quot;start easy medium\nexit&quot;));&#10;&#10;        tests.add(new TestCase&lt;Clue&gt;()&#10;            .setInput(&quot;start medium hard\nexit&quot;));&#10;&#10;        tests.add(new TestCase&lt;Clue&gt;()&#10;            .setInput(&quot;start hard medium\nexit&quot;));&#10;&#10;        tests.add(new TestCase&lt;Clue&gt;()&#10;            .setInput(&quot;start easy hard\nexit&quot;));&#10;&#10;        tests.add(new TestCase&lt;Clue&gt;()&#10;            .setInput(&quot;start hard easy\nexit&quot;));&#10;&#10;&#10;        tests.add(new TestCase&lt;Clue&gt;()&#10;            .setInput(&quot;start user user\n&quot; +&#10;                &quot;1 1\n&quot; +&#10;                &quot;2 2\n&quot; +&#10;                &quot;1 2\n&quot; +&#10;                &quot;2 1\n&quot; +&#10;                &quot;1 3\n&quot; +&#10;                &quot;exit&quot;));&#10;&#10;        return tests;&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Clue clue) {&#10;&#10;        List&lt;TicTacToeField&gt; fields = TicTacToeField.parseAll(reply);&#10;&#10;        if (fields.size() == 0) {&#10;            return new CheckResult(false, &quot;No fields found&quot;);&#10;        }&#10;&#10;        for (int i = 1; i &lt; fields.size(); i++) {&#10;            TicTacToeField curr = fields.get(i - 1);&#10;            TicTacToeField next = fields.get(i);&#10;&#10;            if (!(curr.equalTo(next) || curr.hasNextAs(next))) {&#10;                return new CheckResult(false,&#10;                    &quot;For two fields following each &quot; +&#10;                        &quot;other one is not a continuation &quot; +&#10;                        &quot;of the other.&quot;);&#10;            }&#10;        }&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/tictactoe/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/tictactoe/Main.java" />
+                                <option name="text" value="package tictactoe;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1562944369000" />
+                    </EduTask>
+                  </list>
+                </option>
+              </FrameworkLesson>
+            </list>
+          </option>
+        </HyperskillCourse>
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>
