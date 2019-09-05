@@ -1,246 +1,95 @@
-/**
- * Known problems: StackOverflowError
- * Reason: Despite the fact that methods are static, they probably duplicate the whole
- * set of variables each time when you invoke those methods.
- */
-
-package tictactoe;
-import java.util.Random;
-import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-/**
- * The Main class contains all needed methods to run the program.
- * It has 6 methods and the main() method.
- */
-
+import java.util.*;
 
 public class Main {
-    /**
-     * The main methods contains some variables which are transmitted to other methods.
-     * It also does some actions which are performed only once when the program is launched.
-     * Executes a Start Menu method and runs a loop which keeps the game working until a
-     * round a over. Then executes the Start Menu method again.
-     * @param args
-     */
     public static void main(String[] args) {
-        /**
-         * @param gameMode  Defines the game mode if an array variable is true
-         *                  0 - game loop is over (false - no, true - yes)
-         *                  1 - Player 1 is user (puts crosses 'X')
-         *                  2 - Player 1 is easy AI
-         *                  3 - Player 1 is medium AI
-         *                  4 - Player 1 is hard AI
-         *                  5 - Player 2 is user (puts circles 'O')
-         *                  6 - Player 2 is easy AI
-         *                  7 - Player 2 is medium AI
-         *                  8 - Player 2 is hard AI
-         *                  9 - program exit (false - no, true - yes)
-         */
 
+        boolean isFirstPlayer = false;
         Random random = new Random(System.currentTimeMillis());
         int xCoordAI = 0;
         int yCoordAI = 0;
-        boolean[] gameMode = new boolean[10];
-        boolean isFirstPlayer = false;
-        gameMode[9] = false;
-        //Scanner sc = new Scanner(System.in);
 
-
-        char[][] arrayField = new char[3][3];
-        arrayField = cleanField(arrayField);
-
-        while (!gameMode[9]) {
-            gameMode = startMenu(gameMode);
-
-            while (!gameMode[0]) {
-                fieldPrinting(arrayField);
-                if (gameMode[1]) { isFirstPlayer = true;
-                    arrayField = newMove(arrayField, isFirstPlayer); }
-                if (gameMode[2]) { isFirstPlayer = true;
-                    arrayField = easyDifficulty(arrayField, random, xCoordAI, yCoordAI, isFirstPlayer); }
-                if (gameMode[3]) { isFirstPlayer = true;
-                    arrayField = mediumDifficulty(arrayField, random, xCoordAI, yCoordAI, isFirstPlayer); }
-                if (gameMode[4]) { isFirstPlayer = true;
-                    arrayField = newMove(arrayField, isFirstPlayer); }
-
-                fieldPrinting(arrayField);
-
-                if (!gameState(arrayField).equals("Game not finished")) {
-                    System.out.println(gameState(arrayField));
-                    gameMode[0] = true;
-                    break;
-                }
-
-                if (gameMode[5]) { isFirstPlayer = false;
-                    arrayField = newMove(arrayField, isFirstPlayer); }
-                if (gameMode[6]) { isFirstPlayer = false;
-                    arrayField = easyDifficulty(arrayField, random, xCoordAI, yCoordAI, isFirstPlayer); }
-                if (gameMode[7]) { isFirstPlayer = false;
-                    arrayField = mediumDifficulty(arrayField, random, xCoordAI, yCoordAI, isFirstPlayer); }
-                if (gameMode[8]) { isFirstPlayer = false;
-                    arrayField = easyDifficulty(arrayField, random, xCoordAI, yCoordAI, isFirstPlayer); }
-
-                if (!gameState(arrayField).equals("Game not finished")) {
-                    fieldPrinting(arrayField);
-                    System.out.println(gameState(arrayField));
-                    gameMode[0] = true;
-                    break;
-                }
+        //char[][] arrayField = {{'X','O',' '},{'X','O','X'},{'O','X',' '}};
+        char[][] arrayField = {{'X',' ',' '},{'O','X',' '},{' ',' ','O'}};
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(arrayField[i][j] + " ");
             }
-            arrayField = cleanField(arrayField);
-
+            System.out.println();
         }
+        System.out.println();
+
+        arrayField = mediumDifficulty(arrayField, random, xCoordAI, yCoordAI, isFirstPlayer);
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(arrayField[i][j] + " ");
+            }
+            System.out.println();
+        }
+        System.out.println();
     }
 
     /**
+     * The "medium" level difficulty makes a move using the following process:
+     * 1. If it can win in one move (if it has two in a row), it places a third to get three in a row and win.
+     * 2. If the opponent can win in one move, it plays the third itself to block the opponent to win.
+     * 3. Otherwise, it makes a random move.
      *
-     * Paradoxes: in any case of the switch statement a line like
-     * if (gameMode[1] || firstPlayerOver) always returns "true" though both params
-     * are "false" from the beginning.
+     * (1) Firstly, it picks a pair of random coordinates where it will put a symbol in case no special conditions are found.
+     * If that cell is occupied, the method is recalled to pick a pair of new random coordinates.
      *
-     * @param gameMode
-     * @return
+     * (2) Then, a group of variables are initialized to count symbols and whitespaces in a horizontal line (contains "Horiz" in their names),
+     * a vertical line (contains "Vert" in their names), a diagonal line from bottom to top and from top to bottom
+     *
+     * (3) In a FOR-loop, each symbol is counted in each line. If found a whitespace, its coordinates are memorized (in spaceHorizCoordX, for example).
+     * If a special condition is found, a symbol is put in a memorized coordinates of a whitespace to make a full line.
+     * Then a new arrayField is returned.
+     *
+     * (4) If no special conditions are found during the whole loop, a symbol is put in the array in a random place (by specified
+     * xCoordAI and yCoordAI). Then a new arrayField is returned.
+     * @param arrayField an array of chars 3x3, represents the game field
+     * @param random time-based RNG to pick a random cell on the game field
+     * @param xCoordAI random coordinate X
+     * @param yCoordAI random coordinate Y
+     * @param isFirstPlayer variable taken from outside that shows if AI should put a cross/nought
+     * @return returns a changed arrayField with a new cross/nought put
      */
-    public static boolean[] startMenu(boolean[] gameMode) {
-        Scanner sc = new Scanner(System.in);
-        boolean startFound = false;
-        boolean firstPlayerOver = false;
-        for (int i = 0; i < 9; i++) {
-            gameMode[i] = false;
-        }
-        System.out.print("Input command: ");
-        String command = sc.nextLine().trim();
 
-        Pattern threeWords = Pattern.compile("start\\s+\\w+\\s+\\w+");
-        Pattern currentWord = Pattern.compile("[a-z]+");
-        Matcher threeWordsReader = threeWords.matcher(command);
-        Matcher currentWordReader = currentWord.matcher(command);
-        if (threeWordsReader.matches()) {
-            while (currentWordReader.find()) {
-                String word1 = currentWordReader.group();
-                switch (word1) {
-                    case "user": {
-                        if (gameMode[1] || firstPlayerOver) {
-                            gameMode[5] = true;
-                        }
-                        else { gameMode[1] = true;}
-                        firstPlayerOver = true;
-                        break;
-                    }
-                    case "easy": {
-                        if (gameMode[2] || firstPlayerOver) {
-                            gameMode[6] = true;
-                        }
-                        else { gameMode[2] = true;}
-                        firstPlayerOver = true;
-                        break;
-                    }
-                    case "medium": {
-                        if (gameMode[3] || firstPlayerOver) {
-                            gameMode[7] = true;
-                        }
-                        else { gameMode[3] = true;}
-                        firstPlayerOver = true;
-                        break;
-                    }
-                    case "hard": {
-                        if (gameMode[4] || firstPlayerOver) {
-                            gameMode[8] = true;
-                        }
-                        else { gameMode[4] = true;}
-                        firstPlayerOver = true;
-                        break;
-                    }
-                    case "start": {
-                        gameMode[0] = false;
-                        if (startFound) {
-                            System.out.println("Found multiple \"start\"s! Please, enter again.");
-                            startMenu(gameMode);
-                        }
-                        startFound = true;
-                        break;
-                    }
-                    default: {
-                        System.out.println("Bad parameters! Please, enter again.");
-                        startMenu(gameMode);
-                        break;
-                    }
-                }
-            }
-            return gameMode;
-        }
-        else if(command.trim().equals("exit")) {
-            gameMode[0] = true;
-            gameMode[9] = true;
-            return gameMode;
-        }
-        else {
-            System.out.println("Bad parameters! Please, enter again.");
-            startMenu(gameMode);
-        }
-        return gameMode;
-    }
-
-    public static void fieldPrinting(char[][] arrayField) {
-        System.out.println("---------");
-        for (int i = 0; i < 3; i++) {
-            System.out.println("| " + arrayField[i][0] + " " + arrayField[i][1] + " " + arrayField[i][2] + " |");
-        }
-        System.out.println("---------");
-    }
-    public static char[][] easyDifficulty(char[][] arrayField, Random random, int xCoordAI, int yCoordAI, boolean isFirstPlayer) {
-
-        xCoordAI = 1 + random.nextInt(3);
-        yCoordAI = 1 + random.nextInt(3);
-        if (Character.isWhitespace(arrayField[3-xCoordAI][yCoordAI-1])) {
-            System.out.println("Making move level \"easy\"");
-            if (isFirstPlayer) {
-                arrayField[3 - xCoordAI][yCoordAI - 1] = 'X';
-                return arrayField;
-            }
-            else {
-                arrayField[3 - xCoordAI][yCoordAI - 1] = 'O';
-                return arrayField;
-            }
-        }
-        else {
-            easyDifficulty(arrayField, random, xCoordAI, yCoordAI, isFirstPlayer);
-        }
-        return arrayField;
-    }
     public static char[][] mediumDifficulty(char[][] arrayField, Random random, int xCoordAI, int yCoordAI, boolean isFirstPlayer) {
 
+        //finding a random cell beforehand - begin (1)
         boolean randomMove = false;
         xCoordAI = random.nextInt(3);
         yCoordAI = random.nextInt(3);
+        System.out.println("Random nums: " + xCoordAI + " " + yCoordAI);
         if (Character.isWhitespace(arrayField[xCoordAI][yCoordAI])) {
             randomMove = true;
         }
         else {
             mediumDifficulty(arrayField, random, xCoordAI, yCoordAI, isFirstPlayer);
         }
+        //finding a random cell beforehand - end (1)
 
-        int foundHorizX = 0;
-        int foundHorizO = 0;
-        int spaceHorizCoordX = 4;
-        int spaceHorizCoordY = 4;
-        int foundVertX = 0;
-        int foundVertO = 0;
-        int spaceVertCoordX = 4;
-        int spaceVertCoordY = 4;
-        int foundLeftDiagX = 0;
-        int foundLeftDiagO = 0;
-        int spaceLeftDiagCoordX = 4; //  / - diagonal
-        int spaceLeftDiagCoordY = 4;
-        int foundRightDiagX = 0;
-        int foundRightDiagO = 0;
-        int spaceRightDiagCoordX = 4; //  \ - diagonal
-        int spaceRightDiagCoordY = 4;
+        // a group of committing variables to count symbols and whitespaces in all kinds of lines - begin (2)
+        int foundHorizX;
+        int foundHorizO;
+        int spaceHorizCoordX;
+        int spaceHorizCoordY;
+        int foundVertX;
+        int foundVertO;
+        int spaceVertCoordX;
+        int spaceVertCoordY;
+        int foundLeftDiagX;
+        int foundLeftDiagO;
+        int spaceLeftDiagCoordX; //  / - diagonal
+        int spaceLeftDiagCoordY;
+        int foundRightDiagX;
+        int foundRightDiagO;
+        int spaceRightDiagCoordX; //  \ - diagonal
+        int spaceRightDiagCoordY;
+        // a group of committing variables to count symbols and whitespaces in all kinds of lines - end (2)
 
-
-        moveFound:
+        // a double FOR-loop to determine special conditions and do a specified move (put a symbol in a needed place) - begin (3)
         for (int i = 0; i < 3; i++) {
             foundHorizX = 0;
             foundHorizO = 0;
@@ -260,13 +109,14 @@ public class Main {
             spaceRightDiagCoordY = 4;
 
             for (int j = 0; j < 3; j++) {
-                if (arrayField[i][j] == 'X') { // rows
+            // counting symbols of every line - begin
+                if (arrayField[i][j] == 'X') { // rows (horizontal lines)
                     foundHorizX++;
                 }
-                if (arrayField[i][j] == 'O') {
+                if (arrayField[i][j] == 'O') { // rows (horizontal lines)
                     foundHorizO++;
                 }
-                if (arrayField[i][j] == ' ') {
+                if (arrayField[i][j] == ' ') { // rows (horizontal lines)
                     spaceHorizCoordX = i;
                     spaceHorizCoordY = j;
                 }
@@ -281,242 +131,92 @@ public class Main {
                     spaceVertCoordY= i;
                 }
             }
-            if (arrayField[i][i] == 'X') { //right diagonal
+
+            if (arrayField[i][i] == 'X') { //right diagonal \
                 foundRightDiagX++;
             }
-            if (arrayField[i][i] == 'O') { //right diagonal
+            if (arrayField[i][i] == 'O') { //right diagonal \
                 foundRightDiagO++;
             }
-            if (arrayField[i][i] == ' ') { //right diagonal
+            if (arrayField[i][i] == ' ') { //right diagonal \
                 spaceRightDiagCoordX = i;
                 spaceRightDiagCoordY = i;
             }
-            if (arrayField[2-i][i] == 'X') { //left diagonal
+            if (arrayField[2-i][i] == 'X') { //left diagonal /
                 foundLeftDiagX++;
             }
-            if (arrayField[2-i][i] == 'O') { //left diagonal
+            if (arrayField[2-i][i] == 'O') { //left diagonal /
                 foundLeftDiagO++;
             }
-            if (arrayField[2-i][i] == ' ') { //left diagonal
+            if (arrayField[2-i][i] == ' ') { //left diagonal /
                 spaceLeftDiagCoordX = 2-i;
                 spaceLeftDiagCoordY = i;
             }
+            // counting symbols of every line - end
 
             //checking conditions and doing a specified move - begin
             if ((foundHorizX == 2 || foundHorizO == 2) && spaceHorizCoordX != 4) {
                 if (isFirstPlayer) {
                     arrayField[spaceHorizCoordX][spaceHorizCoordY] = 'X';
+                    System.out.println("Putting X in a horiz line ");
                 }
                 else {
                     arrayField[spaceHorizCoordX][spaceHorizCoordY] = 'O';
+                    System.out.println("Putting O in a horiz line ");
                 }
-
                 return arrayField;
             }
             if ((foundVertX == 2 || foundVertO == 2) && spaceVertCoordX != 4) {
                 if (isFirstPlayer) {
                     arrayField[spaceVertCoordX][spaceVertCoordY] = 'X';
+                    System.out.println("Putting X in a vert line ");
                 }
                 else {
                     arrayField[spaceVertCoordX][spaceVertCoordY] = 'O';
+                    System.out.println("Putting O in a vert line ");
                 }
-
                 return arrayField;
             }
             if ((foundLeftDiagX == 2 || foundLeftDiagO == 2) && spaceLeftDiagCoordX != 4) {
                 if (isFirstPlayer) {
                     arrayField[spaceLeftDiagCoordX][spaceLeftDiagCoordY] = 'X';
+                    System.out.println("Putting X in a left diag line ");
                 }
                 else {
                     arrayField[spaceLeftDiagCoordX][spaceLeftDiagCoordY] = 'O';
+                    System.out.println("Putting O in a left diag line ");
                 }
-
                 return arrayField;
             }
             if ((foundRightDiagX == 2 || foundRightDiagO == 2) || spaceRightDiagCoordX != 4) {
                 if (isFirstPlayer) {
                     arrayField[spaceRightDiagCoordX][spaceRightDiagCoordY] = 'X';
+                    System.out.println("Putting X in a right diag line ");
                 }
                 else {
                     arrayField[spaceRightDiagCoordX][spaceRightDiagCoordY] = 'O';
+                    System.out.println("Putting O in a right diag line ");
                 }
-
                 return arrayField;
             }
             //checking conditions and doing a specified move - end
         }
+        // a double FOR-loop to determine special conditions and do a specified move (put a symbol in a needed place) - end (3)
 
+        // doing a random move - begin (4)
         if (randomMove) {
             if (isFirstPlayer) {
                 arrayField[xCoordAI][yCoordAI] = 'X';
+                System.out.println("Putting X in a random place ");
             }
             else {
                 arrayField[xCoordAI][yCoordAI] = 'O';
+                System.out.println("Putting O in a random place ");
             }
         }
-
+        System.out.println("Reached the end of the method - now return ");
         return arrayField;
-    }
-    public static char[][] hardDifficulty(char[][] arrayField, Random random, int xCoordAI, int yCoordAI, boolean isFirstPlayer) {
+        // doing a random move - end (4)
 
-        return arrayField;
-    }
-    public static char[][] newMove(char[][] arrayField, boolean isFirstPlayer) {
-        //Keep in mind that the first coordinate goes from left to right
-        //and the second coordinate goes from bottom to top. Also,
-        //notice that coordinates start with 1 and can be 1, 2 or 3.
-
-        Scanner scanCoords = new Scanner(System.in);
-        Pattern correctInput = Pattern.compile("[1-3]\\s+[1-3]");
-        Pattern wordsInput = Pattern.compile("[a-zA-z]+");
-        Pattern wrongCoords = Pattern.compile("\\d\\s+\\d");
-        StringBuilder inputContainer = new StringBuilder();
-
-        System.out.print("Enter the coordinates: ");
-
-        inputContainer.append(scanCoords.nextLine().trim());
-        Matcher correctInputReader = correctInput.matcher(inputContainer);
-        Matcher wordsInputReader = wordsInput.matcher(inputContainer);
-        Matcher wrongCoordsReader = wrongCoords.matcher(inputContainer);
-        Scanner scanInput = new Scanner(inputContainer.toString());
-
-        if (correctInputReader.matches()) {
-            int newXcoord = scanInput.nextInt();
-            int newYcoord = scanInput.nextInt();
-
-            if (!Character.isWhitespace(arrayField[3-newYcoord][newXcoord-1])) {
-                System.out.println("This cell is occupied! Choose another one!");
-                inputContainer.delete(0, inputContainer.length());
-                newMove(arrayField, isFirstPlayer);
-            }
-            else {
-                if (isFirstPlayer) {
-                    arrayField[3-newYcoord][newXcoord-1] = 'X';
-                    inputContainer.delete(0, inputContainer.length());
-                    return arrayField;
-                }
-                else {
-                    arrayField[3-newYcoord][newXcoord-1] = 'O';
-                    inputContainer.delete(0, inputContainer.length());
-                    return arrayField;
-                }
-            }
-        }
-        else if (wordsInputReader.matches()) {
-            System.out.println("You should enter numbers! Try again!");
-            inputContainer.delete(0, inputContainer.length());
-            newMove(arrayField, isFirstPlayer);
-        }
-        else if (wrongCoordsReader.matches() && !correctInputReader.matches()) {
-            System.out.println("Coordinates should be from 1 to 3!");
-            inputContainer.delete(0, inputContainer.length());
-            newMove(arrayField, isFirstPlayer);
-        }
-        else {
-            System.out.println("Wrong input! Try again!");
-            inputContainer.delete(0, inputContainer.length());
-            newMove(arrayField, isFirstPlayer);
-        }
-        inputContainer.delete(0, inputContainer.length());
-        return arrayField;
-    }
-    public static String gameState(char[][] arrayField) {
-        int counterX = 0;
-        int counterO = 0;
-        int counterEmpty = 0;
-        boolean xWins = false;
-        boolean oWins = false;
-        //counting X, O and spaces - begin
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                switch (arrayField[i][j]) {
-                    case('X'): {
-                        counterX++;
-                        break;
-                    }
-                    case('O'): {
-                        counterO++;
-                        break;
-                    }
-                    default: {
-                        counterEmpty++;
-                        break;
-                    }
-
-                }
-            }
-        }
-        //counting X, O and spaces - end
-
-        //if the balance of X and Y is broken, show "Impossible"
-        if (Math.abs(counterX-counterO)>1 || Math.abs(counterO-counterX)>1) {
-            return "Impossible";
-        }
-
-        //loop to figure out if X or Y wins - begin
-        for (int i=0; i<3; i++) {
-            //checking horizontal lines for X
-            if (arrayField[0][i] == 'X' && arrayField[1][i] == 'X' && arrayField[2][i] == 'X') {
-                xWins = true;
-            }
-            //checking vertical lines for X
-            if (arrayField[i][0] == 'X' && arrayField[i][1] == 'X' && arrayField[i][2] == 'X') {
-                xWins = true;
-            }
-            //checking diagonal line / for X
-            if (arrayField[2][0] == 'X' && arrayField[1][1] == 'X' && arrayField[0][2] == 'X') {
-                xWins = true;
-            }
-            //checking diagonal line \ for X
-            if (arrayField[0][0] == 'X' && arrayField[1][1] == 'X' && arrayField[2][2] == 'X') {
-                xWins = true;
-            }
-
-            //checking horizontal lines for O
-            if (arrayField[0][i] == 'O' && arrayField[1][i] == 'O' && arrayField[2][i] == 'O') {
-                oWins = true;
-            }
-            //checking vertical lines for O
-            if (arrayField[i][0] == 'O' && arrayField[i][1] == 'O' && arrayField[i][2] == 'O') {
-                oWins = true;
-            }
-            //checking diagonal line / for O
-            if (arrayField[2][0] == 'O' && arrayField[1][1] == 'O' && arrayField[0][2] == 'O') {
-                oWins = true;
-            }
-            //checking diagonal line \ for O
-            if (arrayField[0][0] == 'O' && arrayField[1][1] == 'O' && arrayField[2][2] == 'O') {
-                oWins = true;
-            }
-        }
-        //loop to figure out if X or Y wins - end
-
-        //if found 2 lines in the field, show "Impossible"
-        if (xWins && oWins) {
-            return "Impossible";
-        }
-
-        if (xWins && !oWins) {
-            return "X wins";
-        }
-        if (!xWins && oWins) {
-            return "O wins";
-        }
-
-        //if found no lines and no empty cells, show "Draw"
-        if (!xWins && !oWins && counterEmpty == 0) {
-            return "Draw";
-        }
-
-        //if none of above returns are made, show "Game not finished"
-        return "Game not finished";
-    }
-    public static char[][] cleanField (char[][] arrayField) {
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                arrayField[i][j] = ' ';
-            }
-        }
-        return arrayField;
     }
 }
